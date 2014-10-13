@@ -79,6 +79,7 @@ bowler_record = function(bowler){
 
 Bowlers_records =  as.data.frame(t(sapply(Bowlers,bowler_record)),row.names=FALSE);
 
+<<<<<<< HEAD
 get_position = function(batsman){
   matches = unique(Cricket$Match.No[(Cricket$Batsman==batsman)]);
   positions = c();
@@ -96,3 +97,10 @@ get_pos = function(match,batsman){
   position = which(batting == batsman);
   return(position);
 }
+=======
+length(Cities);
+
+
+
+
+>>>>>>> ec9dca8a6c7d0ca125e8ec283059302bc2c58f67
