@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1413215483104.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FA3A8E12",
+    "lastKnownWriteTime" : 7741240722073845761,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "over",
+        "contentUrl" : "content?title=over&file=caf6ea022c42440e8bcf80161bdb2fc0.htm",
+        "displayedObservations" : 5,
+        "displayedVariables" : 2,
+        "totalObservations" : 5,
+        "variables" : 2
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

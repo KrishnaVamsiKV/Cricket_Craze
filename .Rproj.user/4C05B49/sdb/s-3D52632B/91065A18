@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1413196040757.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "91065A18",
+    "lastKnownWriteTime" : 7741240722073845761,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "Batsmen_records",
+        "contentUrl" : "content?title=Batsmen_records&file=9bd13b3c890b4ca8bd877670114ec323.htm",
+        "displayedObservations" : "485",
+        "displayedVariables" : 10,
+        "totalObservations" : "485",
+        "variables" : "12"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
