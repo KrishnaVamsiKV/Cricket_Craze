@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1413304349417.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E4B99EB9",
+    "lastKnownWriteTime" : 7741240722073845761,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "Cricket",
+        "contentUrl" : "content?title=Cricket&file=518b7deacc894394a5d472a06e8d783c.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 26,
+        "totalObservations" : 175373,
+        "variables" : 26
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

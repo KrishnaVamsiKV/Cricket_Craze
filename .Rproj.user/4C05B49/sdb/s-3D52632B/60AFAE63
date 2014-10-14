@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1413311242853.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "60AFAE63",
+    "lastKnownWriteTime" : 7741240722073845761,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "Bowlers_records",
+        "contentUrl" : "content?title=Bowlers_records&file=97f83ef7dca54380ae315ae306fe1862.htm",
+        "displayedObservations" : 377,
+        "displayedVariables" : 18,
+        "totalObservations" : 377,
+        "variables" : 18
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,17 @@
+{
+    "contents" : "bowler_record = function(bowler){\n  Bowler = data.frame(matrix(nrow=1,ncol=18));\n  names(Bowler) = c(\"Bowler\",\"Country\",\"Matches\",\"Wickets\",\"Runs\",\"Overs\",\"Average\",\"Economy\",\"Strike.Rate\",\"Dot.Ball.Percent\",\"Position1\",\"Freq1\",\"Position2\",\"Freq2\",\"Wicket.Kind1\",\"Wicket.Freq1\",\"Wicket.Kind2\",\"Wicket.Freq2\");\n  Bowler$Bowler = bowler;\n  record = Cricket[(Cricket$Bowler==bowler),];\n  if(record[1,]$Batting.Team==record[1,]$Team1){\n    Bowler$Country = record[1,]$Team2;\n  }\n  else{\n    Bowler$Country = record[1,]$Team1;\n  }\n  Bowler$Matches = length(unique(Cricket$Match.No[(Cricket$Bowler==bowler)]));\n  Bowler$Runs = sum(Cricket$Runs.Batsman[(Cricket$Bowler==bowler)])+sum(Cricket$Runs.Extras.No.Ball[(Cricket$Bowler==bowler)])+sum(Cricket$Runs.Extras.Wides[(Cricket$Bowler==bowler)]);\n  Balls = length(Cricket$Ball.No[((Cricket$Bowler==bowler)&(Cricket$Runs.Extras.Wides==0)&(Cricket$Runs.Extras.No.Ball==0))]);\n  Bowler$Overs = round(Balls/6,0);\n  Bowler$Wickets = length(Cricket$Ball.No[((Cricket$Dismissed.Player!=\"\")&(Cricket$Bowler==bowler))]);\n  Bowler$Average = round(Bowler$Runs/Bowler$Wickets,2);\n  if(is.infinite(Bowler$Average)){\n    Bowler$Average = Bowler$Runs;\n  }\n  Bowler$Economy = round(Bowler$Runs*6/Balls,2);\n  Bowler$Strike.Rate = round(Balls/Bowler$Wickets,2);\n  if(is.infinite(Bowler$Strike.Rate)){\n    Bowler$Strike.Rate = Balls;\n  }\n  Bowler$Dot.Ball.Percent = round(length(Cricket$Ball.No[((Cricket$Bowler==bowler)&(Cricket$Total.Runs==0))])*100/Balls,2);\n  overs = length(Cricket$Ball.No[((Cricket$Bowler==bowler)&(Cricket$Over<=10))]);\n  overs = c(overs,length(Cricket$Ball.No[((Cricket$Bowler==bowler)&(Cricket$Over>10)&(Cricket$Over<=20))]));\n  overs = c(overs,length(Cricket$Ball.No[((Cricket$Bowler==bowler)&(Cricket$Over>20)&(Cricket$Over<=40))]));\n  overs = c(overs,length(Cricket$Ball.No[((Cricket$Bowler==bowler)&(Cricket$Over>40)&(Cricket$Over<=50))]));\n  over = data.frame(cbind(1:4),overs);\n  over = over[order(over$overs,decreasing=TRUE),];\n  Bowler$Position1 = as.vector(over[1,1]);\n  Bowler$Freq1 = as.vector(over[1,2]);\n  Bowler$Position2 = as.vector(over[2,1]);\n  Bowler$Freq2 = as.vector(over[2,2]);\n  Outs = Cricket$Wicket.Kind[((Cricket$Dismissed.Player!=\"\")&(Cricket$Bowler==bowler))];\n  if(length(Outs)){\n  Outs = as.data.frame(table(Outs));\n  Outs = Outs[order(Outs$Freq,decreasing=TRUE),];\n  Bowler$Wicket.Kind1 = as.vector(Outs[1,1]);\n  Bowler$Wicket.Freq1 = as.vector(Outs[1,2]);\n  Bowler$Wicket.Kind2 = as.vector(Outs[2,1]);\n  Bowler$Wicket.Freq2 = as.vector(Outs[2,2]);}\n  return(Bowler);\n}",
+    "created" : 1413304790494.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2353253890",
+    "id" : "83BDFB1B",
+    "lastKnownWriteTime" : 1413309169,
+    "path" : "C:/Users/dell/Desktop/TNT/Cricket_Craze/bowler_record.R",
+    "project_path" : "bowler_record.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
