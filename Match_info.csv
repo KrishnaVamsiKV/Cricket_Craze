@@ -1,0 +1,655 @@
+,matrix.nrow...1.,Match.No,Innings,Batting.Team,City,Date,Toss.Decision,Toss.Winner,Venue,Team1,Team2,Over,Runs.Batsman,Runs.Extras.Wides,Runs.Extras.No.Ball,Runs.Extras.Byes,Runs.Extras.Legbyes,Runs.Extras,Total.Runs,Wicket.Kind.Caught,Wicket.Kind.Caught.And.Bowled,Wicket.Kind.Bowled,Wicket.Kind.Lbw,Wicket.Kind.Runout,Wicket.Kind.Stumped,Wicket.Kind.Total
+1,NA,193,1,Sri Lanka,Mumbai,2/4/2011,bat,Sri Lanka,Wankhede Stadium,India,Sri Lanka,49.6,262,6,2,1,3,12,274,3,0,1,1,1,0,6
+2,NA,193,2,India,Mumbai,2/4/2011,bat,Sri Lanka,Wankhede Stadium,India,Sri Lanka,48.2,262,8,0,1,6,15,277,1,1,1,1,0,0,4
+3,NA,275,1,England,London,28-06-2011,field,Sri Lanka,Kennington Oval,England,Sri Lanka,31.6,210,10,1,1,7,19,229,5,0,0,3,0,0,8
+4,NA,275,2,Sri Lanka,London,28-06-2011,field,Sri Lanka,Kennington Oval,England,Sri Lanka,26.6,111,8,0,0,2,10,121,7,1,0,1,0,1,10
+5,NA,276,1,Sri Lanka,Leeds,1/7/2011,field,England,Headingley,England,Sri Lanka,49.6,293,11,0,0,5,16,309,1,0,0,0,2,2,5
+6,NA,276,2,England,Leeds,1/7/2011,field,England,Headingley,England,Sri Lanka,45.5,233,6,0,0,1,7,240,6,0,2,0,0,2,10
+7,NA,277,1,England,London,3/7/2011,bat,England,Lord's,England,Sri Lanka,49.6,237,5,0,4,0,9,246,4,0,1,1,1,0,7
+8,NA,277,2,Sri Lanka,London,3/7/2011,bat,England,Lord's,England,Sri Lanka,48.2,224,18,0,0,7,25,249,2,0,1,1,0,0,4
+9,NA,278,1,Sri Lanka,Nottingham,6/7/2011,field,England,Trent Bridge,England,Sri Lanka,43.4,164,5,0,0,5,10,174,6,1,1,2,0,0,10
+10,NA,278,2,England,Nottingham,6/7/2011,field,England,Trent Bridge,England,Sri Lanka,23.5,167,4,0,0,0,4,171,0,0,0,0,0,0,0
+11,NA,279,1,England,Manchester,9/7/2011,bat,England,Old Trafford,England,Sri Lanka,49.7,246,15,0,1,6,22,268,4,0,2,0,1,2,9
+12,NA,279,2,Sri Lanka,Manchester,9/7/2011,bat,England,Old Trafford,England,Sri Lanka,48.2,239,4,0,0,9,13,252,6,0,2,0,1,1,10
+13,NA,280,1,India,Chester-le-Street,3/9/2011,field,England,Riverside Ground,England,India,49.6,266,3,0,0,5,8,274,5,0,2,0,0,0,8
+14,NA,280,2,England,Chester-le-Street,3/9/2011,field,England,Riverside Ground,England,India,7.2,26,0,0,0,1,1,27,0,0,1,1,0,0,2
+15,NA,281,1,India,Southampton,6/9/2011,field,England,The Rose Bowl,England,India,22.6,181,4,0,0,2,6,187,6,1,0,0,1,0,8
+16,NA,281,2,England,Southampton,6/9/2011,field,England,The Rose Bowl,England,India,22.1,184,2,0,0,2,4,188,2,0,0,1,0,0,3
+17,NA,282,1,India,London,9/9/2011,field,England,Kennington Oval,England,India,49.7,217,10,0,0,7,17,234,5,0,1,0,1,0,7
+18,NA,282,2,England,London,9/9/2011,field,England,Kennington Oval,England,India,41.5,210,3,0,2,3,8,218,0,0,5,1,1,0,7
+19,NA,283,1,India,London,11/9/2011,field,England,Lord's,England,India,49.6,262,13,0,0,5,18,280,3,1,0,1,0,0,5
+20,NA,283,2,England,London,11/9/2011,field,England,Lord's,England,India,48.5,262,2,1,0,5,8,270,4,1,2,0,1,0,8
+21,NA,284,1,India,Cardiff,16-09-2011,field,England,Sophia Gardens,England,India,49.9,286,6,0,1,11,18,304,4,0,1,0,0,0,6
+22,NA,284,2,England,Cardiff,16-09-2011,field,England,Sophia Gardens,England,India,32.2,238,1,1,0,1,3,241,2,0,1,1,0,0,4
+23,NA,289,1,England,Dublin,25-08-2011,field,Ireland,Clontarf Cricket Club Ground,Ireland,England,41.6,195,5,0,0,1,6,201,6,2,0,0,0,0,8
+24,NA,289,2,Ireland,Dublin,25-08-2011,field,Ireland,Clontarf Cricket Club Ground,Ireland,England,22.6,111,4,0,1,1,6,117,5,0,2,0,1,0,8
+25,NA,293,1,West Indies,St Lucia,23-04-2011,bat,West Indies,"Beausejour Stadium, Gros Islet",West Indies,Pakistan,49.6,191,17,3,0,10,30,221,3,0,0,1,2,0,6
+26,NA,293,2,Pakistan,St Lucia,23-04-2011,bat,West Indies,"Beausejour Stadium, Gros Islet",West Indies,Pakistan,41.3,210,11,1,0,0,12,222,1,0,0,0,0,1,2
+27,NA,294,1,West Indies,St Lucia,25-04-2011,field,Pakistan,"Beausejour Stadium, Gros Islet",West Indies,Pakistan,49.6,195,7,1,0,17,25,220,4,1,2,2,1,0,10
+28,NA,294,2,Pakistan,St Lucia,25-04-2011,field,Pakistan,"Beausejour Stadium, Gros Islet",West Indies,Pakistan,47.6,217,3,2,0,1,6,223,1,0,0,0,1,1,3
+29,NA,295,1,West Indies,Barbados,28-04-2011,field,Pakistan,"Kensington Oval, Bridgetown",West Indies,Pakistan,43.4,160,3,1,1,6,11,171,4,1,1,2,1,1,10
+30,NA,295,2,Pakistan,Barbados,28-04-2011,field,Pakistan,"Kensington Oval, Bridgetown",West Indies,Pakistan,40.1,164,10,1,2,0,13,177,5,0,1,1,0,0,7
+31,NA,296,1,Pakistan,Barbados,2/5/2011,field,West Indies,"Kensington Oval, Bridgetown",West Indies,Pakistan,49.6,241,5,1,0,1,7,248,4,0,3,0,2,0,9
+32,NA,296,2,West Indies,Barbados,2/5/2011,field,West Indies,"Kensington Oval, Bridgetown",West Indies,Pakistan,29.5,144,9,1,0,0,10,154,4,0,0,0,0,0,4
+33,NA,297,1,Pakistan,Guyana,5/5/2011,bat,Pakistan,Providence Stadium,West Indies,Pakistan,41.2,134,4,0,0,1,5,139,3,0,3,4,0,0,10
+34,NA,297,2,West Indies,Guyana,5/5/2011,bat,Pakistan,Providence Stadium,West Indies,Pakistan,23.4,117,12,3,2,6,23,140,0,0,0,0,0,0,0
+35,NA,298,1,West Indies,Trinidad,6/6/2011,bat,West Indies,"Queen's Park Oval, Port of Spain",West Indies,India,49.6,195,12,2,0,5,19,214,4,0,1,3,0,1,9
+36,NA,298,2,India,Trinidad,6/6/2011,bat,West Indies,"Queen's Park Oval, Port of Spain",West Indies,India,44.5,210,3,1,0,3,7,217,4,1,0,0,1,0,6
+37,NA,299,1,West Indies,Trinidad,8/6/2011,field,India,"Queen's Park Oval, Port of Spain",West Indies,India,49.6,216,16,1,1,6,24,240,5,0,1,1,0,2,9
+38,NA,299,2,India,Trinidad,8/6/2011,field,India,"Queen's Park Oval, Port of Spain",West Indies,India,33.4,173,8,2,0,0,10,183,3,0,0,0,0,0,3
+39,NA,300,1,West Indies,Antigua,11/6/2011,field,India,"Sir Vivian Richards Stadium, North Sound",West Indies,India,49.6,219,4,0,0,2,6,225,5,0,1,0,1,1,8
+40,NA,300,2,India,Antigua,11/6/2011,field,India,"Sir Vivian Richards Stadium, North Sound",West Indies,India,46.3,217,5,5,0,1,11,228,5,0,0,1,1,0,7
+41,NA,301,1,West Indies,Antigua,13-06-2011,field,India,"Sir Vivian Richards Stadium, North Sound",West Indies,India,49.6,231,8,3,0,7,18,249,6,0,0,1,1,0,8
+42,NA,301,2,India,Antigua,13-06-2011,field,India,"Sir Vivian Richards Stadium, North Sound",West Indies,India,38.6,138,2,0,4,2,8,146,7,1,0,0,0,2,10
+43,NA,302,1,India,Jamaica,16-06-2011,field,West Indies,"Sabina Park, Kingston",West Indies,India,47.4,230,19,1,0,1,21,251,6,0,3,0,1,0,10
+44,NA,302,2,West Indies,Jamaica,16-06-2011,field,West Indies,"Sabina Park, Kingston",West Indies,India,48.4,236,9,1,0,9,19,255,1,0,0,1,0,1,4
+45,NA,303,1,Bangladesh,Mirpur,11/4/2011,bat,Bangladesh,Shere Bangla National Stadium,Bangladesh,Australia,49.6,219,3,2,4,1,10,229,3,1,2,1,0,0,7
+46,NA,303,2,Australia,Mirpur,11/4/2011,bat,Bangladesh,Shere Bangla National Stadium,Bangladesh,Australia,25.6,230,1,1,0,0,2,232,1,0,0,0,0,0,1
+47,NA,304,1,Australia,Mirpur,13-04-2011,bat,Australia,Shere Bangla National Stadium,Bangladesh,Australia,49.6,353,4,1,0,3,8,361,2,1,2,3,0,0,8
+48,NA,304,2,Bangladesh,Mirpur,13-04-2011,bat,Australia,Shere Bangla National Stadium,Bangladesh,Australia,49.6,279,9,0,2,5,16,295,5,0,1,0,0,0,6
+49,NA,305,1,Netherlands,Aberdeen,29-06-2011,field,Scotland,Mannofield Park,Scotland,Netherlands,49.6,172,5,0,0,3,8,180,6,0,1,1,1,0,9
+50,NA,305,2,Scotland,Aberdeen,29-06-2011,field,Scotland,Mannofield Park,Scotland,Netherlands,39.1,162,0,0,0,0,0,162,4,0,1,0,0,0,5
+51,NA,306,1,Australia,Centurion,19-10-2011,field,South Africa,SuperSport Park,South Africa,Australia,28.6,174,7,1,0,1,9,183,2,0,1,0,1,0,4
+52,NA,306,2,South Africa,Centurion,19-10-2011,field,South Africa,SuperSport Park,South Africa,Australia,21.6,121,7,0,0,1,8,129,6,0,1,2,0,0,10
+53,NA,307,1,South Africa,Port Elizabeth,23-10-2011,bat,South Africa,St George's Park,South Africa,Australia,49.6,275,7,0,9,12,28,303,3,1,0,0,1,1,6
+54,NA,307,2,Australia,Port Elizabeth,23-10-2011,bat,South Africa,St George's Park,South Africa,Australia,49.6,212,2,0,5,4,11,223,8,0,1,0,1,0,10
+55,NA,308,1,South Africa,Durban,28-10-2011,bat,South Africa,Kingsmead,South Africa,Australia,49.6,202,11,0,0,9,20,222,5,0,0,0,1,0,6
+56,NA,308,2,Australia,Durban,28-10-2011,bat,South Africa,Kingsmead,South Africa,Australia,47.3,206,7,0,0,14,21,227,3,1,3,0,0,0,7
+57,NA,309,1,South Africa,Paarl,11/1/2012,bat,South Africa,Boland Park,South Africa,Sri Lanka,49.6,284,15,0,0,2,17,301,3,1,3,0,1,0,8
+58,NA,309,2,Sri Lanka,Paarl,11/1/2012,bat,South Africa,Boland Park,South Africa,Sri Lanka,20.1,39,2,2,0,0,4,43,7,0,2,1,0,0,10
+59,NA,310,1,Sri Lanka,East London,14-01-2012,field,South Africa,Buffalo Park,South Africa,Sri Lanka,49.6,230,5,0,0,1,6,236,5,0,0,0,1,0,6
+60,NA,310,2,South Africa,East London,14-01-2012,field,South Africa,Buffalo Park,South Africa,Sri Lanka,48.4,233,1,0,0,3,4,237,2,1,1,0,1,0,5
+61,NA,311,1,Sri Lanka,Bloemfontein,17-01-2012,bat,Sri Lanka,Chevrolet Park,South Africa,Sri Lanka,49.6,257,7,1,0,1,9,266,4,0,2,0,3,0,9
+62,NA,311,2,South Africa,Bloemfontein,17-01-2012,bat,Sri Lanka,Chevrolet Park,South Africa,Sri Lanka,33.7,175,2,0,0,2,4,179,0,0,2,1,2,0,5
+63,NA,312,1,South Africa,Kimberley,20-01-2012,bat,South Africa,De Beers Diamond Oval,South Africa,Sri Lanka,49.6,289,6,0,4,0,10,299,4,0,1,1,1,0,7
+64,NA,312,2,Sri Lanka,Kimberley,20-01-2012,bat,South Africa,De Beers Diamond Oval,South Africa,Sri Lanka,48.4,287,6,2,4,5,17,304,4,0,1,0,0,0,5
+65,NA,313,1,South Africa,Johannesburg,22-01-2012,field,Sri Lanka,New Wanderers Stadium,South Africa,Sri Lanka,49.6,303,7,0,0,2,9,312,3,0,0,0,1,0,4
+66,NA,313,2,Sri Lanka,Johannesburg,22-01-2012,field,Sri Lanka,New Wanderers Stadium,South Africa,Sri Lanka,49.5,293,8,1,0,12,21,314,7,0,1,0,0,0,8
+67,NA,314,1,Sri Lanka,,10/8/2011,bat,Sri Lanka,Pallekele International Cricket Stadium,Sri Lanka,Australia,41.1,186,2,0,0,3,5,191,7,0,3,0,0,0,10
+68,NA,314,2,Australia,,10/8/2011,bat,Sri Lanka,Pallekele International Cricket Stadium,Sri Lanka,Australia,38.1,189,2,0,0,1,3,192,1,0,2,0,0,0,3
+69,NA,315,1,Sri Lanka,Hambantota,14-08-2011,bat,Sri Lanka,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,Australia,49.3,197,8,1,0,2,11,208,8,0,1,1,0,0,10
+70,NA,315,2,Australia,Hambantota,14-08-2011,bat,Sri Lanka,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,Australia,38.2,198,10,1,0,2,13,211,1,0,1,0,0,0,2
+71,NA,316,1,Sri Lanka,Hambantota,16-08-2011,field,Australia,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,Australia,49.7,272,10,0,0,4,14,286,6,0,1,2,0,0,9
+72,NA,316,2,Australia,Hambantota,16-08-2011,field,Australia,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,Australia,44.2,188,9,1,4,6,20,208,4,1,4,0,1,0,10
+73,NA,317,1,Sri Lanka,Colombo,20-08-2011,bat,Sri Lanka,R Premadasa Stadium,Sri Lanka,Australia,38.4,118,4,0,0,10,14,132,3,1,2,3,0,1,10
+74,NA,317,2,Australia,Colombo,20-08-2011,bat,Sri Lanka,R Premadasa Stadium,Sri Lanka,Australia,27.6,125,2,0,0,6,8,133,4,0,1,0,0,0,5
+75,NA,318,1,Australia,Colombo,22-08-2011,field,Sri Lanka,R Premadasa Stadium,Sri Lanka,Australia,46.1,197,8,2,2,2,14,211,5,0,4,1,0,0,10
+76,NA,318,2,Sri Lanka,Colombo,22-08-2011,field,Sri Lanka,R Premadasa Stadium,Sri Lanka,Australia,46.6,191,15,0,0,7,22,213,5,0,1,0,0,0,6
+77,NA,319,1,Australia,,5/2/2012,field,India,Melbourne Cricket Ground,Australia,India,31.8,208,4,2,0,2,8,216,3,0,2,0,0,0,5
+78,NA,319,2,India,,5/2/2012,field,India,Melbourne Cricket Ground,Australia,India,29.4,144,5,0,0,2,7,151,8,0,1,0,1,0,10
+79,NA,320,1,Sri Lanka,Perth,8/2/2012,bat,Sri Lanka,Western Australia Cricket Association Ground,India,Sri Lanka,49.6,220,7,0,0,6,13,233,5,0,0,0,1,2,8
+80,NA,320,2,India,Perth,8/2/2012,bat,Sri Lanka,Western Australia Cricket Association Ground,India,Sri Lanka,46.4,227,2,0,0,5,7,234,4,0,1,0,1,0,6
+81,NA,321,1,Australia,Perth,10/2/2012,field,Sri Lanka,Western Australia Cricket Association Ground,Australia,Sri Lanka,49.1,220,5,0,0,6,11,231,6,1,1,1,0,1,10
+82,NA,321,2,Sri Lanka,Perth,10/2/2012,field,Sri Lanka,Western Australia Cricket Association Ground,Australia,Sri Lanka,49.5,217,6,0,0,3,9,226,6,0,1,1,1,1,10
+83,NA,322,1,Australia,,12/2/2012,bat,Australia,Adelaide Oval,Australia,India,49.6,260,4,1,0,4,9,269,3,0,2,0,3,0,8
+84,NA,322,2,India,,12/2/2012,bat,Australia,Adelaide Oval,Australia,India,49.5,258,9,1,0,2,12,270,4,0,1,1,0,0,6
+85,NA,323,1,Australia,,17-02-2012,bat,Australia,Sydney Cricket Ground,Australia,Sri Lanka,40.5,145,11,0,0,2,13,158,4,1,0,2,3,0,10
+86,NA,323,2,Sri Lanka,,17-02-2012,bat,Australia,Sydney Cricket Ground,Australia,Sri Lanka,24.1,142,5,0,0,5,10,152,2,0,0,0,0,0,2
+87,NA,324,1,Australia,Brisbane,19-02-2012,bat,Australia,"Brisbane Cricket Ground, Woolloongabba",Australia,India,49.6,262,12,0,2,12,26,288,4,1,0,0,0,0,5
+88,NA,324,2,India,Brisbane,19-02-2012,bat,Australia,"Brisbane Cricket Ground, Woolloongabba",Australia,India,43.3,162,10,2,0,4,16,178,9,0,1,0,0,0,10
+89,NA,325,1,Sri Lanka,Brisbane,21-02-2012,bat,Sri Lanka,"Brisbane Cricket Ground, Woolloongabba",India,Sri Lanka,49.8,267,18,1,1,2,22,289,4,0,2,0,0,0,6
+90,NA,325,2,India,Brisbane,21-02-2012,bat,Sri Lanka,"Brisbane Cricket Ground, Woolloongabba",India,Sri Lanka,45.1,222,9,0,0,7,16,238,7,1,2,0,0,0,10
+91,NA,326,1,Australia,Hobart,24-02-2012,bat,Australia,Bellerive Oval,Australia,Sri Lanka,49.6,275,3,0,1,1,5,280,4,0,1,0,0,1,6
+92,NA,326,2,Sri Lanka,Hobart,24-02-2012,bat,Australia,Bellerive Oval,Australia,Sri Lanka,49.2,268,8,0,1,6,15,283,5,0,0,1,0,1,7
+93,NA,327,1,Australia,,26-02-2012,bat,Australia,Sydney Cricket Ground,Australia,India,49.6,238,5,0,0,9,14,252,6,0,1,0,1,1,9
+94,NA,327,2,India,,26-02-2012,bat,Australia,Sydney Cricket Ground,Australia,India,39.3,142,8,3,4,8,23,165,5,1,2,1,1,0,10
+95,NA,328,1,Sri Lanka,Hobart,28-02-2012,field,India,Bellerive Oval,India,Sri Lanka,49.6,306,11,0,0,3,14,320,2,0,1,0,1,0,4
+96,NA,328,2,India,Hobart,28-02-2012,field,India,Bellerive Oval,India,Sri Lanka,36.4,305,6,0,4,6,16,321,1,0,0,1,1,0,3
+97,NA,329,1,Sri Lanka,,2/3/2012,bat,Sri Lanka,Melbourne Cricket Ground,Australia,Sri Lanka,49.6,230,2,0,2,4,8,238,5,0,2,2,1,0,10
+98,NA,329,2,Australia,,2/3/2012,bat,Sri Lanka,Melbourne Cricket Ground,Australia,Sri Lanka,49.1,213,15,1,0,0,16,229,6,1,1,1,1,0,10
+99,NA,330,1,Australia,Brisbane,4/3/2012,bat,Australia,"Brisbane Cricket Ground, Woolloongabba",Australia,Sri Lanka,49.6,315,5,0,0,1,6,321,4,1,1,0,0,0,6
+100,NA,330,2,Sri Lanka,Brisbane,4/3/2012,bat,Australia,"Brisbane Cricket Ground, Woolloongabba",Australia,Sri Lanka,49.2,289,11,2,1,3,17,306,9,0,1,0,0,0,10
+101,NA,331,1,Australia,,6/3/2012,bat,Australia,Adelaide Oval,Australia,Sri Lanka,49.6,263,2,1,2,3,8,271,1,0,3,0,2,0,6
+102,NA,331,2,Sri Lanka,,6/3/2012,bat,Australia,Adelaide Oval,Australia,Sri Lanka,44.2,254,9,3,4,4,20,274,1,0,0,1,0,0,2
+103,NA,332,1,Australia,,8/3/2012,field,Sri Lanka,Adelaide Oval,Australia,Sri Lanka,49.3,223,3,0,2,3,8,231,6,0,2,1,1,0,10
+104,NA,332,2,Sri Lanka,,8/3/2012,field,Sri Lanka,Adelaide Oval,Australia,Sri Lanka,48.5,194,12,0,0,9,21,215,6,0,3,1,0,0,10
+105,NA,333,1,New Zealand,Dunedin,3/2/2012,field,Zimbabwe,University Oval,New Zealand,Zimbabwe,48.4,232,9,0,0,7,16,248,2,1,4,2,1,0,10
+106,NA,333,2,Zimbabwe,Dunedin,3/2/2012,field,Zimbabwe,University Oval,New Zealand,Zimbabwe,41.1,155,3,0,0,0,3,158,4,1,0,3,1,1,10
+107,NA,334,1,New Zealand,Whangarei,6/2/2012,field,Zimbabwe,Cobham Oval (New),New Zealand,Zimbabwe,49.6,363,7,0,1,1,9,372,5,0,1,0,0,0,6
+108,NA,334,2,Zimbabwe,Whangarei,6/2/2012,field,Zimbabwe,Cobham Oval (New),New Zealand,Zimbabwe,49.6,219,8,0,0,4,12,231,6,0,1,1,0,0,8
+109,NA,335,1,New Zealand,Napier,9/2/2012,bat,New Zealand,McLean Park,New Zealand,Zimbabwe,49.6,362,8,1,1,1,11,373,3,0,1,2,1,1,8
+110,NA,335,2,Zimbabwe,Napier,9/2/2012,bat,New Zealand,McLean Park,New Zealand,Zimbabwe,43.6,168,3,0,0,0,3,171,6,0,0,2,2,0,10
+111,NA,336,1,New Zealand,Wellington,25-02-2012,bat,New Zealand,Westpac Stadium,New Zealand,South Africa,49.6,229,7,3,4,10,24,253,6,0,2,0,0,1,9
+112,NA,336,2,South Africa,Wellington,25-02-2012,bat,New Zealand,Westpac Stadium,New Zealand,South Africa,45.3,248,5,0,0,1,6,254,2,1,1,0,0,0,4
+113,NA,337,1,New Zealand,Napier,29-02-2012,field,South Africa,McLean Park,New Zealand,South Africa,47.3,220,5,0,0,5,10,230,8,0,1,1,0,0,10
+114,NA,337,2,South Africa,Napier,29-02-2012,field,South Africa,McLean Park,New Zealand,South Africa,38.2,221,6,0,2,2,10,231,3,1,0,0,0,0,4
+115,NA,338,1,New Zealand,Auckland,3/3/2012,field,South Africa,Eden Park,New Zealand,South Africa,46.6,192,10,1,0,3,14,206,6,0,0,2,2,0,10
+116,NA,338,2,South Africa,Auckland,3/3/2012,field,South Africa,Eden Park,New Zealand,South Africa,43.2,202,3,1,0,2,6,208,2,0,2,1,0,0,5
+117,NA,339,1,India,Hyderabad,14-10-2011,bat,India,"Rajiv Gandhi International Stadium, Uppal",India,England,49.7,277,18,1,0,4,23,300,2,0,0,1,3,1,7
+118,NA,339,2,England,Hyderabad,14-10-2011,bat,India,"Rajiv Gandhi International Stadium, Uppal",India,England,36.1,171,3,0,0,0,3,174,2,2,4,0,1,1,10
+119,NA,340,1,England,Delhi,17-10-2011,bat,England,Feroz Shah Kotla,India,England,48.2,221,11,0,0,5,16,237,6,0,1,2,1,0,10
+120,NA,340,2,India,Delhi,17-10-2011,bat,England,Feroz Shah Kotla,India,England,36.4,222,13,0,0,3,16,238,2,0,0,0,0,0,2
+121,NA,341,1,England,Chandigarh,20-10-2011,bat,England,"Punjab Cricket Association Stadium, Mohali",India,England,49.6,295,2,0,0,1,3,298,0,0,2,2,0,0,4
+122,NA,341,2,India,Chandigarh,20-10-2011,bat,England,"Punjab Cricket Association Stadium, Mohali",India,England,49.2,283,7,2,0,8,17,300,3,0,0,2,0,0,5
+123,NA,342,1,England,Mumbai,23-10-2011,bat,England,Wankhede Stadium,India,England,46.1,200,14,0,4,2,20,220,2,0,5,3,0,0,10
+124,NA,342,2,India,Mumbai,23-10-2011,bat,England,Wankhede Stadium,India,England,40.1,210,5,1,1,6,13,223,1,0,3,0,0,0,4
+125,NA,343,1,India,Kolkata,25-10-2011,field,England,Eden Gardens,India,England,49.6,261,8,0,2,0,10,271,5,0,2,0,1,0,8
+126,NA,343,2,England,Kolkata,25-10-2011,field,England,Eden Gardens,India,England,36.6,167,5,0,4,0,9,176,6,0,2,2,0,0,10
+127,NA,344,1,Bangladesh,,12/8/2011,field,Zimbabwe,Harare Sports Club,Zimbabwe,Bangladesh,48.4,177,4,0,0,3,7,184,7,0,1,1,1,0,10
+128,NA,344,2,Zimbabwe,,12/8/2011,field,Zimbabwe,Harare Sports Club,Zimbabwe,Bangladesh,41.2,177,7,0,0,2,9,186,3,0,2,0,1,0,6
+129,NA,345,1,Bangladesh,,14-08-2011,field,Zimbabwe,Harare Sports Club,Zimbabwe,Bangladesh,47.3,173,4,0,0,11,15,188,7,0,1,1,1,0,10
+130,NA,345,2,Zimbabwe,,14-08-2011,field,Zimbabwe,Harare Sports Club,Zimbabwe,Bangladesh,44.1,177,10,0,2,2,14,191,1,0,0,0,0,2,3
+131,NA,346,1,Zimbabwe,,16-08-2011,field,Bangladesh,Harare Sports Club,Zimbabwe,Bangladesh,49.6,244,3,0,1,2,6,250,4,0,1,1,0,1,7
+132,NA,346,2,Bangladesh,,16-08-2011,field,Bangladesh,Harare Sports Club,Zimbabwe,Bangladesh,49.2,239,2,0,0,4,6,245,3,2,2,1,2,0,10
+133,NA,347,1,Zimbabwe,Bulawayo,19-08-2011,field,Bangladesh,Queens Sports Club,Zimbabwe,Bangladesh,48.2,185,8,0,0,6,14,199,6,0,2,0,1,0,10
+134,NA,347,2,Bangladesh,Bulawayo,19-08-2011,field,Bangladesh,Queens Sports Club,Zimbabwe,Bangladesh,36.4,193,9,0,0,1,10,203,3,0,0,1,0,0,4
+135,NA,348,1,Bangladesh,Bulawayo,21-08-2011,field,Zimbabwe,Queens Sports Club,Zimbabwe,Bangladesh,49.6,239,11,0,0,3,14,253,5,0,1,0,0,0,6
+136,NA,348,2,Zimbabwe,Bulawayo,21-08-2011,field,Zimbabwe,Queens Sports Club,Zimbabwe,Bangladesh,38.2,155,4,0,0,1,5,160,6,0,0,2,1,0,9
+137,NA,349,1,Pakistan,Bulawayo,8/9/2011,bat,Pakistan,Queens Sports Club,Zimbabwe,Pakistan,49.6,241,5,0,0,1,6,247,5,0,0,1,1,0,7
+138,NA,349,2,Zimbabwe,Bulawayo,8/9/2011,bat,Pakistan,Queens Sports Club,Zimbabwe,Pakistan,49.6,235,5,1,0,1,7,242,3,1,1,1,1,0,7
+139,NA,350,1,Zimbabwe,,11/9/2011,bat,Zimbabwe,Harare Sports Club,Zimbabwe,Pakistan,49.6,208,7,0,0,10,17,225,3,0,1,0,2,0,6
+140,NA,350,2,Pakistan,,11/9/2011,bat,Zimbabwe,Harare Sports Club,Zimbabwe,Pakistan,42.1,214,11,0,0,3,14,228,0,0,0,0,0,0,0
+141,NA,351,1,Pakistan,,14-09-2011,field,Zimbabwe,Harare Sports Club,Zimbabwe,Pakistan,49.8,259,6,3,0,2,11,270,2,2,0,0,0,1,5
+142,NA,351,2,Zimbabwe,,14-09-2011,field,Zimbabwe,Harare Sports Club,Zimbabwe,Pakistan,49.6,237,5,0,0,0,5,242,6,0,3,0,0,0,9
+143,NA,352,1,Ireland,Dublin,19-09-2011,field,Canada,Clontarf Cricket Club Ground,Ireland,Canada,49.6,322,2,0,1,3,6,328,4,2,0,0,0,0,6
+144,NA,352,2,Canada,Dublin,19-09-2011,field,Canada,Clontarf Cricket Club Ground,Ireland,Canada,48.4,178,8,0,7,2,17,195,8,0,2,0,0,0,10
+145,NA,353,1,Ireland,Dublin,20-09-2011,bat,Ireland,Clontarf Cricket Club Ground,Ireland,Canada,49.6,238,5,2,0,4,11,249,4,0,1,1,1,0,7
+146,NA,353,2,Canada,Dublin,20-09-2011,bat,Ireland,Clontarf Cricket Club Ground,Ireland,Canada,46.3,174,11,0,0,8,19,193,6,0,1,0,3,0,10
+147,NA,354,1,Zimbabwe,,20-10-2011,bat,Zimbabwe,Harare Sports Club,Zimbabwe,New Zealand,49.6,228,1,0,0,2,3,231,5,0,1,0,0,0,6
+148,NA,354,2,New Zealand,,20-10-2011,bat,Zimbabwe,Harare Sports Club,Zimbabwe,New Zealand,43.3,221,7,2,0,2,11,232,1,0,0,0,0,0,1
+149,NA,355,1,Zimbabwe,,22-10-2011,field,New Zealand,Harare Sports Club,Zimbabwe,New Zealand,49.6,242,13,1,0,3,17,259,5,0,3,0,0,0,8
+150,NA,355,2,New Zealand,,22-10-2011,field,New Zealand,Harare Sports Club,Zimbabwe,New Zealand,48.2,250,8,0,0,3,11,261,4,0,1,0,1,0,6
+151,NA,356,1,New Zealand,Bulawayo,25-10-2011,bat,New Zealand,Queens Sports Club,Zimbabwe,New Zealand,49.7,305,15,2,0,6,23,328,2,1,1,0,1,0,5
+152,NA,356,2,Zimbabwe,Bulawayo,25-10-2011,bat,New Zealand,Queens Sports Club,Zimbabwe,New Zealand,49.5,319,4,1,0,5,10,329,5,0,4,0,0,0,9
+153,NA,357,1,Sri Lanka,,11/11/2011,bat,Sri Lanka,Dubai International Cricket Stadium,Pakistan,Sri Lanka,40.3,112,13,1,0,5,19,131,4,0,2,1,1,2,10
+154,NA,357,2,Pakistan,,11/11/2011,bat,Sri Lanka,Dubai International Cricket Stadium,Pakistan,Sri Lanka,21.5,115,7,4,0,6,17,132,1,0,0,1,0,0,2
+155,NA,358,1,Sri Lanka,,14-11-2011,bat,Sri Lanka,Dubai International Cricket Stadium,Pakistan,Sri Lanka,49.7,210,16,1,0,8,25,235,2,1,3,0,0,1,7
+156,NA,358,2,Pakistan,,14-11-2011,bat,Sri Lanka,Dubai International Cricket Stadium,Pakistan,Sri Lanka,46.3,197,7,0,1,5,13,210,3,0,0,4,3,0,10
+157,NA,359,1,Pakistan,,18-11-2011,bat,Pakistan,Dubai International Cricket Stadium,Pakistan,Sri Lanka,49.6,243,9,1,0,4,14,257,3,0,3,0,2,0,8
+158,NA,359,2,Sri Lanka,,18-11-2011,bat,Pakistan,Dubai International Cricket Stadium,Pakistan,Sri Lanka,48.5,221,10,0,0,5,15,236,2,0,4,2,1,1,10
+159,NA,360,1,Pakistan,,20-11-2011,bat,Pakistan,Sharjah Cricket Stadium,Pakistan,Sri Lanka,49.4,190,8,0,0,2,10,200,4,0,1,4,1,0,10
+160,NA,360,2,Sri Lanka,,20-11-2011,bat,Pakistan,Sharjah Cricket Stadium,Pakistan,Sri Lanka,45.2,164,6,1,0,3,10,174,5,1,2,2,0,0,10
+161,NA,361,1,Sri Lanka,Abu Dhabi,23-11-2011,bat,Sri Lanka,Sheikh Zayed Stadium,Pakistan,Sri Lanka,49.6,201,11,0,0,6,17,218,6,0,2,0,0,1,9
+162,NA,361,2,Pakistan,Abu Dhabi,23-11-2011,bat,Sri Lanka,Sheikh Zayed Stadium,Pakistan,Sri Lanka,47.2,206,8,0,2,3,13,219,4,0,0,3,0,0,7
+163,NA,362,1,England,Abu Dhabi,13-02-2012,bat,England,Sheikh Zayed Stadium,England,Pakistan,49.7,243,5,1,0,11,17,260,1,1,3,1,0,1,7
+164,NA,362,2,Pakistan,Abu Dhabi,13-02-2012,bat,England,Sheikh Zayed Stadium,England,Pakistan,34.6,116,7,5,0,2,14,130,5,0,0,4,0,1,10
+165,NA,363,1,England,Abu Dhabi,15-02-2012,bat,England,Sheikh Zayed Stadium,England,Pakistan,49.6,234,10,0,1,5,16,250,2,1,0,1,0,0,4
+166,NA,363,2,Pakistan,Abu Dhabi,15-02-2012,bat,England,Sheikh Zayed Stadium,England,Pakistan,48.6,209,8,1,1,11,21,230,3,0,4,2,1,0,10
+167,NA,364,1,Pakistan,,18-02-2012,bat,Pakistan,Dubai International Cricket Stadium,England,Pakistan,49.6,208,2,1,0,11,14,222,4,0,3,1,2,0,10
+168,NA,364,2,England,,18-02-2012,bat,Pakistan,Dubai International Cricket Stadium,England,Pakistan,37.2,215,4,4,0,3,11,226,1,0,0,0,0,0,1
+169,NA,365,1,Pakistan,,21-02-2012,bat,Pakistan,Dubai International Cricket Stadium,England,Pakistan,49.6,229,3,0,1,4,8,237,6,0,2,1,1,0,10
+170,NA,365,2,England,,21-02-2012,bat,Pakistan,Dubai International Cricket Stadium,England,Pakistan,49.2,228,10,0,0,3,13,241,3,0,0,2,1,0,6
+171,NA,366,1,West Indies,Mirpur,13-10-2011,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,West Indies,49.6,288,8,0,0,2,10,298,3,0,1,0,0,0,5
+172,NA,366,2,Bangladesh,Mirpur,13-10-2011,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,West Indies,49.6,242,9,0,0,7,16,258,6,0,1,0,0,0,7
+173,NA,367,1,West Indies,Chittagong,18-10-2011,field,Bangladesh,Zahur Ahmed Chowdhury Stadium,Bangladesh,West Indies,21.7,53,5,0,0,3,8,61,3,2,3,2,0,0,10
+174,NA,367,2,Bangladesh,Chittagong,18-10-2011,field,Bangladesh,Zahur Ahmed Chowdhury Stadium,Bangladesh,West Indies,19.6,57,0,0,0,5,5,62,1,0,1,0,0,0,2
+175,NA,368,1,England,Southampton,16-06-2012,field,West Indies,The Rose Bowl,England,West Indies,49.6,278,9,1,0,0,10,288,4,0,1,0,1,0,6
+176,NA,368,2,West Indies,Southampton,16-06-2012,field,West Indies,The Rose Bowl,England,West Indies,33.4,169,3,0,0,0,3,172,7,0,1,2,0,0,10
+177,NA,369,1,West Indies,London,19-06-2012,field,England,Kennington Oval,England,West Indies,49.6,229,5,1,0,3,9,238,6,0,0,1,2,0,9
+178,NA,369,2,England,London,19-06-2012,field,England,Kennington Oval,England,West Indies,44.6,227,8,1,0,3,12,239,2,0,0,0,0,0,2
+179,NA,370,1,Ireland,Belfast,23-06-2012,field,Australia,"Civil Service Cricket Club, Stormont",Ireland,Australia,10.4,35,1,0,0,0,1,36,1,0,2,0,0,0,3
+180,NA,371,1,England,London,29-06-2012,field,Australia,Lord's,England,Australia,49.6,264,4,0,0,4,8,272,3,0,1,1,0,0,5
+181,NA,371,2,Australia,London,29-06-2012,field,Australia,Lord's,England,Australia,49.6,247,7,0,0,3,10,257,4,0,2,2,1,0,9
+182,NA,372,1,Australia,London,1/7/2012,bat,Australia,Kennington Oval,England,Australia,49.6,226,8,2,0,15,25,251,5,0,1,0,1,0,7
+183,NA,372,2,England,London,1/7/2012,bat,Australia,Kennington Oval,England,Australia,45.4,235,9,4,0,4,17,252,0,0,2,1,1,0,4
+184,NA,373,1,Australia,Chester-le-Street,7/7/2012,field,England,Riverside Ground,England,Australia,49.6,193,4,1,0,2,7,200,4,0,3,2,0,0,9
+185,NA,373,2,England,Chester-le-Street,7/7/2012,field,England,Riverside Ground,England,Australia,47.5,195,4,2,0,0,6,201,1,0,1,0,0,0,2
+186,NA,374,1,Australia,Manchester,10/7/2012,field,England,Old Trafford,England,Australia,31.6,142,2,0,0,1,3,145,3,0,0,1,2,1,7
+187,NA,374,2,England,Manchester,10/7/2012,field,England,Old Trafford,England,Australia,27.1,133,4,0,0,1,5,138,2,0,1,0,0,0,3
+188,NA,375,1,England,Cardiff,24-08-2012,field,South Africa,Sophia Gardens,England,South Africa,5.3,36,1,0,0,0,1,37,0,0,0,0,0,0,0
+189,NA,376,1,South Africa,Southampton,28-08-2012,bat,South Africa,The Rose Bowl,England,South Africa,49.6,281,1,0,1,4,6,287,2,0,2,0,1,0,5
+190,NA,376,2,England,Southampton,28-08-2012,bat,South Africa,The Rose Bowl,England,South Africa,40.4,196,1,0,3,7,11,207,7,0,2,0,1,0,10
+191,NA,377,1,South Africa,London,31-08-2012,bat,South Africa,Kennington Oval,England,South Africa,46.4,209,1,0,0,1,2,211,3,0,6,1,0,0,10
+192,NA,377,2,England,London,31-08-2012,bat,South Africa,Kennington Oval,England,South Africa,47.6,204,6,1,0,1,8,212,3,1,0,1,1,0,6
+193,NA,378,1,South Africa,London,2/9/2012,field,England,Lord's,England,South Africa,49.6,207,6,0,0,7,13,220,2,0,2,0,1,3,8
+194,NA,378,2,England,London,2/9/2012,field,England,Lord's,England,South Africa,46.5,201,11,2,3,7,23,224,2,0,0,2,0,0,4
+195,NA,379,1,England,Nottingham,5/9/2012,bat,England,Trent Bridge,England,South Africa,45.2,173,3,3,0,3,9,182,7,1,1,1,0,0,10
+196,NA,379,2,South Africa,Nottingham,5/9/2012,bat,England,Trent Bridge,England,South Africa,34.3,177,8,0,0,1,9,186,3,0,0,0,0,0,3
+197,NA,380,1,Pakistan,Mirpur,11/3/2012,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,Pakistan,49.6,254,5,1,0,2,8,262,4,1,2,0,1,0,8
+198,NA,380,2,Bangladesh,Mirpur,11/3/2012,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,Pakistan,48.1,234,5,0,0,2,7,241,1,0,7,2,0,0,10
+199,NA,381,1,India,Mirpur,13-03-2012,field,Sri Lanka,Shere Bangla National Stadium,India,Sri Lanka,49.7,290,7,0,0,7,14,304,3,0,0,0,0,0,3
+200,NA,381,2,Sri Lanka,Mirpur,13-03-2012,field,Sri Lanka,Shere Bangla National Stadium,India,Sri Lanka,45.1,246,6,0,0,2,8,254,6,0,3,1,0,0,10
+201,NA,382,1,Sri Lanka,Mirpur,15-03-2012,bat,Sri Lanka,Shere Bangla National Stadium,Pakistan,Sri Lanka,45.4,179,4,0,0,5,9,188,7,0,3,0,0,0,10
+202,NA,382,2,Pakistan,Mirpur,15-03-2012,bat,Sri Lanka,Shere Bangla National Stadium,Pakistan,Sri Lanka,39.5,184,2,2,0,1,5,189,4,0,0,0,0,0,4
+203,NA,383,1,India,Mirpur,16-03-2012,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,India,49.7,271,10,2,0,6,18,289,2,0,2,0,1,0,5
+204,NA,383,2,Bangladesh,Mirpur,16-03-2012,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,India,49.2,281,3,2,0,7,12,293,4,0,0,0,0,1,5
+205,NA,384,1,Pakistan,Mirpur,18-03-2012,bat,Pakistan,Shere Bangla National Stadium,India,Pakistan,49.7,314,10,1,1,3,15,329,5,0,0,1,0,0,6
+206,NA,384,2,India,Mirpur,18-03-2012,bat,Pakistan,Shere Bangla National Stadium,India,Pakistan,47.6,319,4,1,5,1,11,330,3,0,0,1,0,0,4
+207,NA,385,1,Sri Lanka,Mirpur,20-03-2012,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,Sri Lanka,49.5,221,8,0,0,3,11,232,4,0,3,1,1,1,10
+208,NA,385,2,Bangladesh,Mirpur,20-03-2012,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,Sri Lanka,37.1,192,7,0,0,13,20,212,2,0,2,1,0,0,5
+209,NA,386,1,Pakistan,Mirpur,22-03-2012,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,Pakistan,49.8,218,4,4,2,8,18,236,5,1,1,1,1,0,9
+210,NA,386,2,Bangladesh,Mirpur,22-03-2012,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,Pakistan,49.6,223,4,2,0,5,11,234,6,0,2,0,0,0,8
+211,NA,387,1,West Indies,Cuttack,29-11-2011,field,India,Barabati Stadium,India,West Indies,49.6,201,6,0,0,4,10,211,2,1,5,0,1,0,9
+212,NA,387,2,India,Cuttack,29-11-2011,field,India,Barabati Stadium,India,West Indies,48.5,190,16,4,0,3,23,213,5,0,3,0,1,0,9
+213,NA,388,1,West Indies,Visakhapatnam,2/12/2011,field,India,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,India,West Indies,49.8,255,7,1,0,6,14,269,6,0,1,1,1,0,9
+214,NA,388,2,India,Visakhapatnam,2/12/2011,field,India,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,India,West Indies,48.2,256,10,0,0,4,14,270,5,0,0,0,0,0,5
+215,NA,389,1,West Indies,Ahmedabad,5/12/2011,field,India,"Sardar Patel Stadium, Motera",India,West Indies,49.6,253,5,0,0,2,7,260,4,0,1,0,0,0,6
+216,NA,389,2,India,Ahmedabad,5/12/2011,field,India,"Sardar Patel Stadium, Motera",India,West Indies,46.5,235,3,3,1,2,9,244,2,0,2,4,2,0,10
+217,NA,390,1,India,Indore,8/12/2011,bat,India,Holkar Cricket Stadium,India,West Indies,49.6,404,13,0,0,1,14,418,2,0,1,0,2,0,5
+218,NA,390,2,West Indies,Indore,8/12/2011,bat,India,Holkar Cricket Stadium,India,West Indies,49.2,261,2,0,0,2,4,265,4,1,3,0,1,1,10
+219,NA,391,1,India,Chennai,11/12/2011,bat,India,"MA Chidambaram Stadium, Chepauk",India,West Indies,49.6,256,3,2,0,6,11,267,1,0,2,2,1,0,7
+220,NA,391,2,West Indies,Chennai,11/12/2011,bat,India,"MA Chidambaram Stadium, Chepauk",India,West Indies,44.1,220,11,0,0,2,13,233,3,0,3,3,1,0,10
+221,NA,392,1,Bangladesh,Mirpur,1/12/2011,bat,Bangladesh,Shere Bangla National Stadium,Bangladesh,Pakistan,30.3,79,8,0,2,2,12,91,8,0,0,2,0,0,10
+222,NA,392,2,Pakistan,Mirpur,1/12/2011,bat,Bangladesh,Shere Bangla National Stadium,Bangladesh,Pakistan,25.4,85,4,0,0,4,8,93,3,0,2,0,0,0,5
+223,NA,393,1,Pakistan,Mirpur,3/12/2011,bat,Pakistan,Shere Bangla National Stadium,Bangladesh,Pakistan,49.6,240,17,0,0,5,22,262,6,0,0,1,0,0,7
+224,NA,393,2,Bangladesh,Mirpur,3/12/2011,bat,Pakistan,Shere Bangla National Stadium,Bangladesh,Pakistan,49.6,172,8,1,0,5,14,186,4,1,1,1,0,0,7
+225,NA,394,1,Pakistan,Chittagong,6/12/2011,bat,Pakistan,Zahur Ahmed Chowdhury Stadium,Bangladesh,Pakistan,46.1,161,2,1,12,1,16,177,6,1,1,1,0,1,10
+226,NA,394,2,Bangladesh,Chittagong,6/12/2011,bat,Pakistan,Zahur Ahmed Chowdhury Stadium,Bangladesh,Pakistan,37.6,107,5,0,4,3,12,119,2,1,3,4,0,0,10
+227,NA,395,1,Australia,St Vincent,16-03-2012,bat,Australia,"Arnos Vale Ground, Kingstown",West Indies,Australia,49.6,190,5,0,3,6,14,204,6,0,0,1,0,1,8
+228,NA,395,2,West Indies,St Vincent,16-03-2012,bat,Australia,"Arnos Vale Ground, Kingstown",West Indies,Australia,32.3,133,3,0,4,0,7,140,6,0,1,1,1,1,10
+229,NA,396,1,Australia,St Vincent,18-03-2012,field,West Indies,"Arnos Vale Ground, Kingstown",West Indies,Australia,39.6,146,2,1,2,3,8,154,5,0,2,0,1,1,9
+230,NA,396,2,West Indies,St Vincent,18-03-2012,field,West Indies,"Arnos Vale Ground, Kingstown",West Indies,Australia,38.2,157,2,0,4,0,6,163,0,0,2,1,2,0,5
+231,NA,397,1,Australia,St Vincent,20-03-2012,bat,Australia,"Arnos Vale Ground, Kingstown",West Indies,Australia,49.5,206,3,1,4,6,14,220,3,0,3,1,2,1,10
+232,NA,397,2,West Indies,St Vincent,20-03-2012,bat,Australia,"Arnos Vale Ground, Kingstown",West Indies,Australia,49.4,207,6,1,1,5,13,220,7,0,0,1,1,1,10
+233,NA,398,1,West Indies,St Lucia,23-03-2012,field,Australia,"Beausejour Stadium, Gros Islet",West Indies,Australia,49.6,281,10,0,0,3,13,294,6,0,0,1,0,0,7
+234,NA,398,2,Australia,St Lucia,23-03-2012,field,Australia,"Beausejour Stadium, Gros Islet",West Indies,Australia,46.4,238,11,2,0,1,14,252,9,0,1,0,0,0,10
+235,NA,399,1,Australia,St Lucia,25-03-2012,field,West Indies,"Beausejour Stadium, Gros Islet",West Indies,Australia,49.6,271,7,0,2,1,10,281,8,0,1,0,0,0,9
+236,NA,399,2,West Indies,St Lucia,25-03-2012,field,West Indies,"Beausejour Stadium, Gros Islet",West Indies,Australia,47.2,244,6,0,0,1,7,251,8,1,0,1,0,0,10
+237,NA,400,1,Ireland,,18-02-2012,bat,Ireland,Mombasa Sports Club Ground,Kenya,Ireland,47.3,195,4,0,0,1,5,200,7,1,2,0,0,0,10
+238,NA,400,2,Kenya,,18-02-2012,bat,Ireland,Mombasa Sports Club Ground,Kenya,Ireland,42.6,176,12,8,0,5,25,201,1,0,1,0,1,0,3
+239,NA,401,1,Afghanistan,,29-03-2012,bat,Afghanistan,Sharjah Cricket Stadium,Afghanistan,Netherlands,39.2,133,14,0,0,6,20,153,6,0,1,1,1,1,10
+240,NA,401,2,Netherlands,,29-03-2012,bat,Afghanistan,Sharjah Cricket Stadium,Afghanistan,Netherlands,26.2,148,8,0,0,0,8,156,0,0,0,1,0,0,1
+241,NA,402,1,Afghanistan,,10/2/2012,bat,Afghanistan,Sharjah Cricket Stadium,Afghanistan,Pakistan,48.3,182,4,0,4,5,13,195,3,1,2,3,1,0,10
+242,NA,402,2,Pakistan,,10/2/2012,bat,Afghanistan,Sharjah Cricket Stadium,Afghanistan,Pakistan,37.1,190,5,2,0,1,8,198,0,1,1,1,0,0,3
+243,NA,403,1,Ireland,Dublin,5/7/2012,field,Afghanistan,Clontarf Cricket Club Ground,Ireland,Afghanistan,46.7,148,10,1,4,0,15,163,6,0,1,2,1,0,10
+244,NA,403,2,Afghanistan,Dublin,5/7/2012,field,Afghanistan,Clontarf Cricket Club Ground,Ireland,Afghanistan,33.1,94,2,0,2,6,10,104,3,0,5,1,1,0,10
+245,NA,404,1,New Zealand,Jamaica,5/7/2012,field,West Indies,"Sabina Park, Kingston",West Indies,New Zealand,49.6,177,10,1,1,1,13,190,4,0,3,2,0,0,9
+246,NA,404,2,West Indies,Jamaica,5/7/2012,field,West Indies,"Sabina Park, Kingston",West Indies,New Zealand,24.2,128,2,0,0,6,8,136,1,0,0,0,0,0,1
+247,NA,405,1,West Indies,Jamaica,7/7/2012,field,New Zealand,"Sabina Park, Kingston",West Indies,New Zealand,49.6,295,15,0,0,5,20,315,3,0,1,1,0,0,5
+248,NA,405,2,New Zealand,Jamaica,7/7/2012,field,New Zealand,"Sabina Park, Kingston",West Indies,New Zealand,46.6,241,11,3,0,5,19,260,4,1,2,1,2,0,10
+249,NA,406,1,New Zealand,St Kitts,11/7/2012,field,West Indies,"Warner Park, Basseterre",West Indies,New Zealand,49.6,236,5,2,0,6,13,249,5,1,1,1,0,1,9
+250,NA,406,2,West Indies,St Kitts,11/7/2012,field,West Indies,"Warner Park, Basseterre",West Indies,New Zealand,34.3,156,1,1,0,3,5,161,4,1,0,2,3,0,10
+251,NA,407,1,West Indies,St Kitts,14-07-2012,bat,West Indies,"Warner Park, Basseterre",West Indies,New Zealand,49.5,238,20,1,0,5,26,264,7,0,1,2,0,0,10
+252,NA,407,2,New Zealand,St Kitts,14-07-2012,bat,West Indies,"Warner Park, Basseterre",West Indies,New Zealand,49.3,216,8,1,5,10,24,240,6,0,1,2,1,0,10
+253,NA,408,1,West Indies,St Kitts,16-07-2012,bat,West Indies,"Warner Park, Basseterre",West Indies,New Zealand,49.6,224,9,0,0,8,17,241,8,0,0,1,0,0,9
+254,NA,408,2,New Zealand,St Kitts,16-07-2012,bat,West Indies,"Warner Park, Basseterre",West Indies,New Zealand,49.6,214,5,0,0,2,7,221,6,0,2,1,0,1,10
+255,NA,409,1,Sri Lanka,,7/6/2012,bat,Sri Lanka,Pallekele International Cricket Stadium,Sri Lanka,Pakistan,41.6,104,23,1,0,7,31,135,3,0,2,3,0,0,8
+256,NA,409,2,Pakistan,,7/6/2012,bat,Sri Lanka,Pallekele International Cricket Stadium,Sri Lanka,Pakistan,34.1,113,6,1,2,13,22,135,1,0,1,0,1,1,4
+257,NA,410,1,Sri Lanka,,9/6/2012,bat,Sri Lanka,Pallekele International Cricket Stadium,Sri Lanka,Pakistan,49.6,264,7,1,1,7,16,280,1,1,1,1,0,0,4
+258,NA,410,2,Pakistan,,9/6/2012,bat,Sri Lanka,Pallekele International Cricket Stadium,Sri Lanka,Pakistan,46.2,202,0,0,0,2,2,204,5,1,1,3,0,0,10
+259,NA,411,1,Pakistan,Colombo,13-06-2012,bat,Pakistan,R Premadasa Stadium,Sri Lanka,Pakistan,6.2,12,0,0,0,0,0,12,1,0,0,1,0,0,2
+260,NA,412,1,Sri Lanka,Colombo,16-06-2012,bat,Sri Lanka,R Premadasa Stadium,Sri Lanka,Pakistan,49.6,217,11,0,5,10,26,243,3,0,3,1,1,0,8
+261,NA,412,2,Pakistan,Colombo,16-06-2012,bat,Sri Lanka,R Premadasa Stadium,Sri Lanka,Pakistan,44.6,176,14,0,0,9,23,199,8,0,0,1,1,0,10
+262,NA,413,1,Pakistan,Colombo,18-06-2012,bat,Pakistan,R Premadasa Stadium,Sri Lanka,Pakistan,49.6,239,3,0,2,3,8,247,5,0,1,0,1,0,7
+263,NA,413,2,Sri Lanka,Colombo,18-06-2012,bat,Pakistan,R Premadasa Stadium,Sri Lanka,Pakistan,49.5,226,12,0,0,10,22,248,2,1,2,0,2,1,8
+264,NA,414,1,India,Hambantota,21-07-2012,bat,India,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,India,49.6,302,7,2,1,2,12,314,3,0,2,0,1,0,6
+265,NA,414,2,Sri Lanka,Hambantota,21-07-2012,bat,India,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,India,49.6,270,16,0,1,6,23,293,4,0,1,3,1,0,9
+266,NA,415,1,India,Hambantota,24-07-2012,bat,India,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,India,33.3,123,4,0,2,4,10,133,5,1,2,1,1,0,10
+267,NA,415,2,Sri Lanka,Hambantota,24-07-2012,bat,India,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,India,19.5,111,14,0,0,10,24,135,1,0,0,0,0,0,1
+268,NA,416,1,Sri Lanka,Colombo,28-07-2012,bat,Sri Lanka,R Premadasa Stadium,Sri Lanka,India,49.6,266,9,1,2,8,20,286,2,0,1,2,0,0,5
+269,NA,416,2,India,Colombo,28-07-2012,bat,Sri Lanka,R Premadasa Stadium,Sri Lanka,India,49.4,273,4,0,0,11,15,288,1,1,1,1,1,0,5
+270,NA,417,1,Sri Lanka,Colombo,31-07-2012,bat,Sri Lanka,R Premadasa Stadium,Sri Lanka,India,49.6,236,13,0,0,2,15,251,5,0,2,0,0,1,8
+271,NA,417,2,India,Colombo,31-07-2012,bat,Sri Lanka,R Premadasa Stadium,Sri Lanka,India,42.2,245,6,2,0,2,10,255,1,0,1,2,0,0,4
+272,NA,418,1,India,,4/8/2012,bat,India,Pallekele International Cricket Stadium,Sri Lanka,India,49.6,278,6,0,0,10,16,294,4,0,1,2,0,0,7
+273,NA,418,2,Sri Lanka,,4/8/2012,bat,India,Pallekele International Cricket Stadium,Sri Lanka,India,45.4,245,13,0,2,14,29,274,5,0,1,2,2,0,10
+274,NA,419,1,England,Rajkot,11/1/2013,bat,England,Saurashtra Cricket Association Stadium,India,England,49.6,313,10,2,0,0,12,325,2,1,0,0,1,0,4
+275,NA,419,2,India,Rajkot,11/1/2013,bat,England,Saurashtra Cricket Association Stadium,India,England,49.6,307,7,1,0,1,9,316,6,1,2,0,0,0,9
+276,NA,420,1,India,Kochi,15-01-2013,bat,India,Nehru Stadium,India,England,49.7,270,10,0,0,5,15,285,2,0,3,1,0,0,6
+277,NA,420,2,England,Kochi,15-01-2013,bat,India,Nehru Stadium,India,England,35.6,147,4,0,5,2,11,158,4,0,2,3,1,0,10
+278,NA,421,1,England,Ranchi,19-01-2013,field,India,JSCA International Stadium Complex,India,England,42.2,140,9,0,0,6,15,155,5,0,3,2,0,0,10
+279,NA,421,2,India,Ranchi,19-01-2013,field,India,JSCA International Stadium Complex,India,England,28.1,150,5,0,1,1,7,157,1,0,2,0,0,0,3
+280,NA,422,1,England,Chandigarh,23-01-2013,field,India,"Punjab Cricket Association Stadium, Mohali",India,England,49.6,243,4,0,2,8,14,257,4,1,1,1,0,0,7
+281,NA,422,2,India,Chandigarh,23-01-2013,field,India,"Punjab Cricket Association Stadium, Mohali",India,England,47.3,251,5,0,0,2,7,258,2,1,0,2,0,0,5
+282,NA,423,1,India,Dharamsala,27-01-2013,field,England,Himachal Pradesh Cricket Association Stadium,India,England,49.5,216,6,0,0,4,10,226,8,1,0,1,0,0,10
+283,NA,423,2,England,Dharamsala,27-01-2013,field,England,Himachal Pradesh Cricket Association Stadium,India,England,47.2,212,7,0,0,8,15,227,1,0,2,0,0,0,3
+284,NA,424,1,England,London,31-05-2013,field,New Zealand,Lord's,England,New Zealand,49.6,216,6,1,0,4,11,227,7,0,2,0,0,0,9
+285,NA,424,2,New Zealand,London,31-05-2013,field,New Zealand,Lord's,England,New Zealand,46.5,205,10,0,4,12,26,231,4,0,1,0,0,0,5
+286,NA,425,1,New Zealand,Southampton,2/6/2013,bat,New Zealand,The Rose Bowl,England,New Zealand,49.6,346,5,0,4,4,13,359,1,0,2,0,0,0,3
+287,NA,425,2,England,Southampton,2/6/2013,bat,New Zealand,The Rose Bowl,England,New Zealand,44.1,263,6,1,0,3,10,273,5,0,3,0,1,1,10
+288,NA,426,1,England,Nottingham,5/6/2013,field,New Zealand,Trent Bridge,England,New Zealand,49.7,276,7,2,0,2,11,287,2,0,0,2,2,0,6
+289,NA,426,2,New Zealand,Nottingham,5/6/2013,field,New Zealand,Trent Bridge,England,New Zealand,46.3,238,6,2,2,5,15,253,8,0,1,1,0,0,10
+290,NA,427,1,Ireland,Dublin,3/9/2013,field,England,"The Village, Malahide",Ireland,England,49.6,237,10,3,6,13,32,269,2,0,2,2,0,0,7
+291,NA,427,2,England,Dublin,3/9/2013,field,England,"The Village, Malahide",Ireland,England,42.6,265,3,0,4,2,9,274,1,0,2,1,0,0,4
+292,NA,428,1,Australia,Manchester,8/9/2013,field,England,Old Trafford,England,Australia,49.6,310,2,1,1,1,5,315,6,0,1,0,0,0,7
+293,NA,428,2,England,Manchester,8/9/2013,field,England,Old Trafford,England,Australia,44.2,220,6,0,0,1,7,227,7,1,1,0,1,0,10
+294,NA,429,1,England,Birmingham,11/9/2013,field,Australia,Edgbaston,England,Australia,15.1,52,7,0,0,0,7,59,1,1,0,0,1,0,3
+295,NA,430,1,Australia,Cardiff,14-09-2013,field,England,Sophia Gardens,England,Australia,48.2,220,3,0,1,3,7,227,4,0,3,2,1,0,10
+296,NA,430,2,England,Cardiff,14-09-2013,field,England,Sophia Gardens,England,Australia,49.3,219,4,0,0,8,12,231,2,0,3,2,0,0,7
+297,NA,431,1,Australia,Southampton,16-09-2013,bat,Australia,The Rose Bowl,England,Australia,49.1,279,9,0,0,10,19,298,8,1,0,0,0,1,10
+298,NA,431,2,England,Southampton,16-09-2013,bat,Australia,The Rose Bowl,England,Australia,47.6,235,6,0,3,5,14,249,3,0,3,1,2,1,10
+299,NA,432,1,South Africa,London,19-06-2013,field,England,Kennington Oval,England,South Africa,38.5,163,6,0,0,6,12,175,6,0,1,2,1,0,10
+300,NA,432,2,England,London,19-06-2013,field,England,Kennington Oval,England,South Africa,37.3,171,4,0,0,4,8,179,2,0,1,0,0,0,3
+301,NA,433,1,Sri Lanka,Cardiff,20-06-2013,field,India,Sophia Gardens,India,Sri Lanka,49.6,168,11,0,0,2,13,181,5,0,2,0,0,1,8
+302,NA,433,2,India,Cardiff,20-06-2013,field,India,Sophia Gardens,India,Sri Lanka,34.7,166,10,0,1,5,16,182,0,0,1,0,0,1,2
+303,NA,434,1,India,Birmingham,23-06-2013,field,England,Edgbaston,England,India,19.6,125,4,0,0,0,4,129,5,0,1,0,1,0,7
+304,NA,434,2,England,Birmingham,23-06-2013,field,England,Edgbaston,England,India,19.6,119,4,0,0,1,5,124,4,0,1,0,1,2,8
+305,NA,435,1,South Africa,Paarl,19-01-2013,field,New Zealand,Boland Park,South Africa,New Zealand,46.2,190,10,1,4,3,18,208,5,0,1,4,0,0,10
+306,NA,435,2,New Zealand,Paarl,19-01-2013,field,New Zealand,Boland Park,South Africa,New Zealand,45.4,178,15,3,0,13,31,209,3,0,2,3,1,0,9
+307,NA,436,1,New Zealand,Kimberley,22-01-2013,field,South Africa,De Beers Diamond Oval,South Africa,New Zealand,49.6,270,5,0,0,4,9,279,4,0,2,1,1,0,8
+308,NA,436,2,South Africa,Kimberley,22-01-2013,field,South Africa,De Beers Diamond Oval,South Africa,New Zealand,49.1,247,4,1,0,0,5,252,3,0,2,0,5,0,10
+309,NA,437,1,South Africa,Bloemfontein,10/3/2013,field,Pakistan,Chevrolet Park,South Africa,Pakistan,49.6,303,6,0,1,5,12,315,4,0,0,0,0,0,4
+310,NA,437,2,Pakistan,Bloemfontein,10/3/2013,field,Pakistan,Chevrolet Park,South Africa,Pakistan,36.2,180,4,0,0,6,10,190,7,1,0,1,1,0,10
+311,NA,438,1,South Africa,Centurion,15-03-2013,bat,South Africa,SuperSport Park,South Africa,Pakistan,43.2,172,9,0,0,10,19,191,7,1,1,1,0,0,10
+312,NA,438,2,Pakistan,Centurion,15-03-2013,bat,South Africa,SuperSport Park,South Africa,Pakistan,39.3,183,6,0,0,3,9,192,3,0,1,0,0,0,4
+313,NA,439,1,South Africa,Johannesburg,17-03-2013,field,Pakistan,New Wanderers Stadium,South Africa,Pakistan,49.6,321,13,1,0,8,22,343,4,0,1,0,0,0,5
+314,NA,439,2,Pakistan,Johannesburg,17-03-2013,field,Pakistan,New Wanderers Stadium,South Africa,Pakistan,48.1,298,7,1,0,3,11,309,7,1,2,0,0,0,10
+315,NA,440,1,South Africa,Durban,21-03-2013,bat,South Africa,Kingsmead,South Africa,Pakistan,49.6,223,9,0,0,2,11,234,4,0,4,1,0,0,9
+316,NA,440,2,Pakistan,Durban,21-03-2013,bat,South Africa,Kingsmead,South Africa,Pakistan,48.4,218,13,0,1,4,18,236,4,0,1,0,1,0,7
+317,NA,441,1,Pakistan,Benoni,24-03-2013,bat,Pakistan,Willowmoore Park,South Africa,Pakistan,49.1,189,11,1,0,4,16,205,7,0,2,0,1,0,10
+318,NA,441,2,South Africa,Benoni,24-03-2013,bat,Pakistan,Willowmoore Park,South Africa,Pakistan,43.6,190,7,0,6,5,18,208,2,0,2,0,0,0,4
+319,NA,442,1,England,Hamilton,17-02-2013,field,New Zealand,Seddon Park,New Zealand,England,49.3,248,5,1,0,4,10,258,7,0,3,0,0,0,10
+320,NA,442,2,New Zealand,Hamilton,17-02-2013,field,New Zealand,Seddon Park,New Zealand,England,48.6,246,6,0,0,7,13,259,4,0,1,1,1,0,7
+321,NA,443,1,New Zealand,Napier,20-02-2013,field,England,McLean Park,New Zealand,England,48.5,262,3,1,0,3,7,269,8,0,2,0,0,0,10
+322,NA,443,2,England,Napier,20-02-2013,field,England,McLean Park,New Zealand,England,47.4,266,3,0,0,1,4,270,1,1,0,0,0,0,2
+323,NA,444,1,New Zealand,Auckland,23-02-2013,field,England,Eden Park,New Zealand,England,43.6,174,8,0,0,3,11,185,7,1,0,1,1,0,10
+324,NA,444,2,England,Auckland,23-02-2013,field,England,Eden Park,New Zealand,England,37.3,181,4,0,0,1,5,186,5,0,0,0,0,0,5
+325,NA,445,1,Pakistan,,28-08-2012,bat,Pakistan,Sharjah Cricket Stadium,Australia,Pakistan,45.1,181,4,0,0,13,17,198,7,0,3,0,0,0,10
+326,NA,445,2,Australia,,28-08-2012,bat,Pakistan,Sharjah Cricket Stadium,Australia,Pakistan,48.2,187,6,0,1,5,12,199,2,0,1,3,0,0,6
+327,NA,446,1,Australia,Abu Dhabi,31-08-2012,bat,Australia,Sheikh Zayed Stadium,Australia,Pakistan,49.6,229,5,5,0,9,19,248,1,1,3,3,0,1,9
+328,NA,446,2,Pakistan,Abu Dhabi,31-08-2012,bat,Australia,Sheikh Zayed Stadium,Australia,Pakistan,43.4,223,20,0,0,6,26,249,2,0,1,0,0,0,3
+329,NA,447,1,Pakistan,,3/9/2012,field,Australia,Sharjah Cricket Stadium,Australia,Pakistan,49.6,226,13,0,4,1,18,244,5,0,1,1,0,0,7
+330,NA,447,2,Australia,,3/9/2012,field,Australia,Sharjah Cricket Stadium,Australia,Pakistan,46.6,243,3,0,0,4,7,250,4,0,2,0,0,1,7
+331,NA,448,1,Australia,,25-08-2012,bat,Australia,Sharjah Cricket Association Stadium,Afghanistan,Australia,49.6,264,1,2,1,4,8,272,2,1,3,0,1,1,8
+332,NA,448,2,Afghanistan,,25-08-2012,bat,Australia,Sharjah Cricket Association Stadium,Afghanistan,Australia,43.5,185,11,0,1,9,21,206,5,0,4,1,0,0,10
+333,NA,449,1,Australia,,11/1/2013,bat,Australia,Melbourne Cricket Ground,Australia,Sri Lanka,49.7,295,5,0,2,3,10,305,4,0,0,0,1,0,5
+334,NA,449,2,Sri Lanka,,11/1/2013,bat,Australia,Melbourne Cricket Ground,Australia,Sri Lanka,39.8,185,9,0,2,2,13,198,7,0,0,0,3,0,10
+335,NA,450,1,Australia,,13-01-2013,field,Sri Lanka,Adelaide Oval,Australia,Sri Lanka,46.5,164,4,0,1,1,6,170,7,0,0,2,1,0,10
+336,NA,450,2,Sri Lanka,,13-01-2013,field,Sri Lanka,Adelaide Oval,Australia,Sri Lanka,40.1,167,2,0,0,3,5,172,2,0,0,0,0,0,2
+337,NA,451,1,Australia,Brisbane,18-01-2013,bat,Australia,"Brisbane Cricket Ground, Woolloongabba",Australia,Sri Lanka,26.4,69,3,0,0,2,5,74,6,0,3,1,0,0,10
+338,NA,451,2,Sri Lanka,Brisbane,18-01-2013,bat,Australia,"Brisbane Cricket Ground, Woolloongabba",Australia,Sri Lanka,19.6,70,3,1,0,1,5,75,6,0,0,0,0,0,6
+339,NA,452,1,Australia,,20-01-2013,bat,Australia,Sydney Cricket Ground,Australia,Sri Lanka,49.6,212,2,0,1,7,10,222,4,0,1,4,0,0,9
+340,NA,452,2,Sri Lanka,,20-01-2013,bat,Australia,Sydney Cricket Ground,Australia,Sri Lanka,3.2,13,1,0,0,0,1,14,0,0,0,0,0,0,0
+341,NA,453,1,Australia,Hobart,23-01-2013,field,Sri Lanka,Bellerive Oval,Australia,Sri Lanka,49.6,240,5,0,0,2,7,247,1,1,1,1,1,0,5
+342,NA,453,2,Sri Lanka,Hobart,23-01-2013,field,Sri Lanka,Bellerive Oval,Australia,Sri Lanka,48.4,196,6,1,0,12,19,215,7,0,3,0,0,0,10
+343,NA,454,1,West Indies,Perth,1/2/2013,bat,West Indies,Western Australia Cricket Association Ground,Australia,West Indies,23.5,53,6,0,8,3,17,70,7,0,3,0,0,0,10
+344,NA,454,2,Australia,Perth,1/2/2013,bat,West Indies,Western Australia Cricket Association Ground,Australia,West Indies,9.2,69,2,0,0,0,2,71,1,0,0,0,0,0,1
+345,NA,455,1,Australia,Perth,3/2/2013,field,West Indies,Western Australia Cricket Association Ground,Australia,West Indies,49.6,247,9,0,0,10,19,266,5,0,2,0,0,0,7
+346,NA,455,2,West Indies,Perth,3/2/2013,field,West Indies,Western Australia Cricket Association Ground,Australia,West Indies,38.1,188,11,0,0,13,24,212,4,0,0,4,1,1,10
+347,NA,456,1,Australia,Canberra,6/2/2013,bat,Australia,Manuka Oval,Australia,West Indies,49.6,323,3,2,1,0,6,329,5,1,1,0,0,0,7
+348,NA,456,2,West Indies,Canberra,6/2/2013,bat,Australia,Manuka Oval,Australia,West Indies,47.3,279,6,1,0,4,11,290,3,0,6,0,1,0,10
+349,NA,457,1,West Indies,,8/2/2013,bat,West Indies,Sydney Cricket Ground,Australia,West Indies,49.4,209,9,0,1,1,11,220,7,0,1,1,1,0,10
+350,NA,457,2,Australia,,8/2/2013,bat,West Indies,Sydney Cricket Ground,Australia,West Indies,44.5,203,8,2,0,8,18,221,4,0,0,1,0,0,5
+351,NA,458,1,Australia,,10/2/2013,field,West Indies,Melbourne Cricket Ground,Australia,West Indies,49.6,256,7,1,1,9,18,274,4,0,1,0,0,0,5
+352,NA,458,2,West Indies,,10/2/2013,field,West Indies,Melbourne Cricket Ground,Australia,West Indies,49.5,241,9,0,1,6,16,257,7,0,2,0,1,0,10
+353,NA,459,1,India,Cardiff,6/6/2013,field,South Africa,Sophia Gardens,India,South Africa,49.6,317,8,2,0,4,14,331,6,0,0,0,1,0,7
+354,NA,459,2,South Africa,Cardiff,6/6/2013,field,South Africa,Sophia Gardens,India,South Africa,49.7,296,7,1,0,1,9,305,5,0,2,1,2,0,10
+355,NA,460,1,Pakistan,London,7/6/2013,field,West Indies,Kennington Oval,Pakistan,West Indies,47.6,164,5,0,0,1,6,170,7,0,1,0,2,0,10
+356,NA,460,2,West Indies,London,7/6/2013,field,West Indies,Kennington Oval,Pakistan,West Indies,40.4,155,5,2,0,10,17,172,5,0,1,1,0,1,8
+357,NA,461,1,England,Birmingham,8/6/2013,bat,England,Edgbaston,England,Australia,49.7,250,6,1,0,12,19,269,3,0,3,0,0,0,6
+358,NA,461,2,Australia,Birmingham,8/6/2013,bat,England,Edgbaston,England,Australia,49.7,213,1,1,0,6,8,221,6,0,2,1,0,0,9
+359,NA,462,1,Sri Lanka,Cardiff,9/6/2013,bat,Sri Lanka,Sophia Gardens,New Zealand,Sri Lanka,37.5,135,2,0,0,1,3,138,6,0,2,1,1,0,10
+360,NA,462,2,New Zealand,Cardiff,9/6/2013,bat,Sri Lanka,Sophia Gardens,New Zealand,Sri Lanka,36.4,126,5,0,0,8,13,139,2,0,1,5,1,0,9
+361,NA,463,1,South Africa,Birmingham,10/6/2013,bat,South Africa,Edgbaston,Pakistan,South Africa,49.6,224,4,1,0,5,10,234,3,0,0,2,4,0,9
+362,NA,463,2,Pakistan,Birmingham,10/6/2013,bat,South Africa,Edgbaston,Pakistan,South Africa,44.6,152,8,0,0,7,15,167,5,1,4,0,0,0,10
+363,NA,464,1,West Indies,London,11/6/2013,field,India,Kennington Oval,India,West Indies,49.6,225,2,0,4,2,8,233,5,0,1,2,0,1,9
+364,NA,464,2,India,London,11/6/2013,field,India,Kennington Oval,India,West Indies,39.1,227,5,0,4,0,9,236,1,0,1,0,0,0,2
+365,NA,465,1,Australia,Birmingham,12/6/2013,bat,Australia,Edgbaston,Australia,New Zealand,49.7,227,4,4,1,7,16,243,5,0,1,1,1,0,8
+366,NA,465,2,New Zealand,Birmingham,12/6/2013,bat,Australia,Edgbaston,Australia,New Zealand,14.6,49,1,0,0,1,2,51,2,0,0,0,0,0,2
+367,NA,466,1,England,London,13-06-2013,field,Sri Lanka,Kennington Oval,England,Sri Lanka,49.6,280,3,0,0,10,13,293,3,0,1,3,0,0,7
+368,NA,466,2,Sri Lanka,London,13-06-2013,field,Sri Lanka,Kennington Oval,England,Sri Lanka,47.1,284,7,0,0,6,13,297,3,0,0,0,0,0,3
+369,NA,467,1,South Africa,Cardiff,14-06-2013,field,West Indies,Sophia Gardens,South Africa,West Indies,30.7,215,9,0,2,4,15,230,5,0,0,0,1,0,6
+370,NA,467,2,West Indies,Cardiff,14-06-2013,field,West Indies,Sophia Gardens,South Africa,West Indies,26.1,178,7,0,0,5,12,190,3,0,1,1,1,0,6
+371,NA,468,1,Pakistan,Birmingham,15-06-2013,field,India,Edgbaston,India,Pakistan,39.4,162,2,0,0,1,3,165,5,0,2,1,2,0,10
+372,NA,468,2,India,Birmingham,15-06-2013,field,India,Edgbaston,India,Pakistan,19.1,99,3,0,0,0,3,102,2,0,0,0,0,0,2
+373,NA,469,1,England,Cardiff,16-06-2013,field,New Zealand,Sophia Gardens,England,New Zealand,23.3,162,4,1,0,2,7,169,7,1,0,1,1,0,10
+374,NA,469,2,New Zealand,Cardiff,16-06-2013,field,New Zealand,Sophia Gardens,England,New Zealand,23.8,143,8,0,0,8,16,159,6,0,1,1,0,0,8
+375,NA,470,1,Sri Lanka,London,17-06-2013,field,Australia,Kennington Oval,Australia,Sri Lanka,49.6,235,4,2,5,7,18,253,4,0,1,1,2,0,8
+376,NA,470,2,Australia,London,17-06-2013,field,Australia,Kennington Oval,Australia,Sri Lanka,42.3,204,17,1,0,11,29,233,5,1,3,0,1,0,10
+377,NA,471,1,New Zealand,,4/11/2012,bat,New Zealand,Pallekele International Cricket Stadium,Sri Lanka,New Zealand,49.6,230,11,0,1,8,20,250,4,0,2,0,0,0,6
+378,NA,471,2,Sri Lanka,,4/11/2012,bat,New Zealand,Pallekele International Cricket Stadium,Sri Lanka,New Zealand,22.5,104,6,0,0,8,14,118,3,0,0,0,0,0,3
+379,NA,472,1,New Zealand,,6/11/2012,field,Sri Lanka,Pallekele International Cricket Stadium,Sri Lanka,New Zealand,32.6,178,7,0,1,2,10,188,2,0,1,2,1,0,6
+380,NA,472,2,Sri Lanka,,6/11/2012,field,Sri Lanka,Pallekele International Cricket Stadium,Sri Lanka,New Zealand,31.1,186,6,1,0,7,14,200,3,0,0,0,0,0,3
+381,NA,473,1,New Zealand,Hambantota,10/11/2012,field,Sri Lanka,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,New Zealand,31.6,123,5,0,0,3,8,131,3,0,2,2,1,0,8
+382,NA,473,2,Sri Lanka,Hambantota,10/11/2012,field,Sri Lanka,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,New Zealand,26.3,114,9,2,0,6,17,131,2,0,1,0,0,0,3
+383,NA,474,1,Sri Lanka,Hambantota,12/11/2012,field,New Zealand,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,New Zealand,28.3,117,3,0,0,3,6,123,6,0,1,0,1,0,8
+384,NA,475,1,West Indies,Khulna,30-11-2012,bat,West Indies,Sheikh Abu Naser Stadium,Bangladesh,West Indies,46.5,188,10,0,0,1,11,199,6,0,1,2,1,0,10
+385,NA,475,2,Bangladesh,Khulna,30-11-2012,bat,West Indies,Sheikh Abu Naser Stadium,Bangladesh,West Indies,40.2,193,5,1,0,2,8,201,2,1,0,0,0,0,3
+386,NA,476,1,Bangladesh,Khulna,2/12/2012,field,West Indies,Sheikh Abu Naser Stadium,Bangladesh,West Indies,49.7,266,19,1,0,6,26,292,6,0,0,0,0,0,6
+387,NA,476,2,West Indies,Khulna,2/12/2012,field,West Indies,Sheikh Abu Naser Stadium,Bangladesh,West Indies,31.1,124,6,0,0,2,8,132,6,0,2,1,1,0,10
+388,NA,477,1,Bangladesh,Mirpur,5/12/2012,field,West Indies,Shere Bangla National Stadium,Bangladesh,West Indies,49.1,200,18,1,4,3,26,226,8,0,0,1,0,1,10
+389,NA,477,2,West Indies,Mirpur,5/12/2012,field,West Indies,Shere Bangla National Stadium,Bangladesh,West Indies,46.6,208,11,0,0,9,20,228,4,0,1,0,0,1,6
+390,NA,478,1,West Indies,Mirpur,7/12/2012,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,West Indies,49.8,192,14,0,0,5,19,211,5,1,2,1,0,0,9
+391,NA,478,2,Bangladesh,Mirpur,7/12/2012,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,West Indies,34.1,110,21,0,0,5,26,136,5,1,2,1,0,1,10
+392,NA,479,1,West Indies,Mirpur,8/12/2012,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,West Indies,47.6,194,18,0,0,5,23,217,4,0,1,2,2,1,10
+393,NA,479,2,Bangladesh,Mirpur,8/12/2012,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,West Indies,43.6,194,18,2,3,4,27,221,3,0,3,2,0,0,8
+394,NA,480,1,India,Chennai,30-12-2012,field,Pakistan,"MA Chidambaram Stadium, Chepauk",India,Pakistan,49.6,205,9,2,0,11,22,227,1,0,5,0,0,0,6
+395,NA,480,2,Pakistan,Chennai,30-12-2012,field,Pakistan,"MA Chidambaram Stadium, Chepauk",India,Pakistan,48.1,218,3,1,0,6,10,228,2,0,2,0,0,0,4
+396,NA,481,1,Pakistan,Kolkata,3/1/2013,field,India,Eden Gardens,India,Pakistan,48.3,244,6,0,0,0,6,250,3,0,3,2,1,1,10
+397,NA,481,2,India,Kolkata,3/1/2013,field,India,Eden Gardens,India,Pakistan,47.7,147,14,0,0,4,18,165,3,0,2,3,0,2,10
+398,NA,482,1,Canada,Dubai,11/3/2013,bat,Canada,ICC Global Cricket Academy,Canada,Kenya,49.6,204,10,0,6,7,23,227,5,0,2,1,0,0,8
+399,NA,482,2,Kenya,Dubai,11/3/2013,bat,Canada,ICC Global Cricket Academy,Canada,Kenya,47.4,216,11,0,0,1,12,228,2,0,1,1,0,0,4
+400,NA,483,1,West Indies,Grenada,22-02-2013,field,Zimbabwe,"National Cricket Stadium, St George's",West Indies,Zimbabwe,49.6,329,3,1,2,2,8,337,3,0,1,0,0,0,4
+401,NA,483,2,Zimbabwe,Grenada,22-02-2013,field,Zimbabwe,"National Cricket Stadium, St George's",West Indies,Zimbabwe,49.6,159,10,3,4,5,22,181,6,0,2,1,0,0,9
+402,NA,484,1,Zimbabwe,Grenada,26-02-2013,bat,Zimbabwe,"National Cricket Stadium, St George's",West Indies,Zimbabwe,49.6,198,9,0,0,4,13,211,2,1,3,2,1,0,9
+403,NA,484,2,West Indies,Grenada,26-02-2013,bat,Zimbabwe,"National Cricket Stadium, St George's",West Indies,Zimbabwe,46.2,203,7,0,0,5,12,215,3,1,0,0,1,0,5
+404,NA,485,1,Sri Lanka,Jamaica,28-06-2013,field,West Indies,"Sabina Park, Kingston",West Indies,Sri Lanka,48.3,197,4,0,5,2,11,208,9,0,0,1,0,0,10
+405,NA,485,2,West Indies,Jamaica,28-06-2013,field,West Indies,"Sabina Park, Kingston",West Indies,Sri Lanka,37.5,188,10,0,4,7,21,209,2,0,0,1,1,0,4
+406,NA,486,1,India,Jamaica,30-06-2013,field,West Indies,"Sabina Park, Kingston",West Indies,India,49.6,207,9,2,5,6,22,229,3,2,2,0,0,0,7
+407,NA,486,2,West Indies,Jamaica,30-06-2013,field,West Indies,"Sabina Park, Kingston",West Indies,India,47.4,223,5,0,0,2,7,230,6,0,2,1,0,0,9
+408,NA,487,1,Sri Lanka,Jamaica,2/7/2013,field,India,"Sabina Park, Kingston",India,Sri Lanka,49.6,325,16,0,1,6,23,348,1,0,0,0,0,0,1
+409,NA,487,2,India,Jamaica,2/7/2013,field,India,"Sabina Park, Kingston",India,Sri Lanka,44.5,171,12,0,0,4,16,187,5,0,3,0,1,1,10
+410,NA,488,1,Sri Lanka,Trinidad,7/7/2013,field,West Indies,"Queen's Park Oval, Port of Spain",West Indies,Sri Lanka,40.6,188,24,3,0,4,31,219,6,0,2,0,0,0,8
+411,NA,488,2,West Indies,Trinidad,7/7/2013,field,West Indies,"Queen's Park Oval, Port of Spain",West Indies,Sri Lanka,40.6,181,9,0,0,0,9,190,5,2,1,1,0,0,9
+412,NA,489,1,India,Trinidad,9/7/2013,field,Sri Lanka,"Queen's Park Oval, Port of Spain",India,Sri Lanka,28.6,110,3,2,1,3,9,119,1,0,1,1,0,0,3
+413,NA,489,2,Sri Lanka,Trinidad,9/7/2013,field,Sri Lanka,"Queen's Park Oval, Port of Spain",India,Sri Lanka,24.4,85,5,0,0,6,11,96,7,0,1,1,0,1,10
+414,NA,490,1,Sri Lanka,Trinidad,11/7/2013,field,India,"Queen's Park Oval, Port of Spain",India,Sri Lanka,48.5,178,13,0,4,6,23,201,7,0,0,0,0,3,10
+415,NA,490,2,India,Trinidad,11/7/2013,field,India,"Queen's Park Oval, Port of Spain",India,Sri Lanka,49.4,188,11,0,2,2,15,203,5,0,1,3,0,0,9
+416,NA,491,1,Pakistan,Edinburgh,17-05-2013,bat,Pakistan,"Grange Cricket Club Ground, Raeburn Place",Scotland,Pakistan,49.6,224,3,0,0,4,7,231,3,0,3,1,0,0,7
+417,NA,491,2,Scotland,Edinburgh,17-05-2013,bat,Pakistan,"Grange Cricket Club Ground, Raeburn Place",Scotland,Pakistan,39.5,122,4,1,0,8,13,135,3,0,2,3,1,1,10
+418,NA,492,1,Pakistan,Dublin,23-05-2013,bat,Pakistan,Clontarf Cricket Club Ground,Ireland,Pakistan,46.6,249,13,0,2,2,17,266,3,0,1,0,1,0,5
+419,NA,492,2,Ireland,Dublin,23-05-2013,bat,Pakistan,Clontarf Cricket Club Ground,Ireland,Pakistan,46.6,260,7,0,0,8,15,275,3,0,2,0,0,0,5
+420,NA,493,1,Ireland,Dublin,26-05-2013,field,Pakistan,Clontarf Cricket Club Ground,Ireland,Pakistan,49.6,203,17,2,0,7,26,229,7,0,1,1,0,0,9
+421,NA,493,2,Pakistan,Dublin,26-05-2013,field,Pakistan,Clontarf Cricket Club Ground,Ireland,Pakistan,48.4,215,9,0,1,5,15,230,5,1,0,2,0,0,8
+422,NA,494,1,Sri Lanka,Hambantota,25-03-2013,field,Bangladesh,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,Bangladesh,4.6,28,1,0,0,4,5,33,0,0,0,0,0,0,0
+423,NA,495,1,Sri Lanka,,28-03-2013,bat,Sri Lanka,Pallekele International Cricket Stadium,Sri Lanka,Bangladesh,49.6,285,14,1,0,2,17,302,3,0,4,1,0,1,9
+424,NA,495,2,Bangladesh,,28-03-2013,bat,Sri Lanka,Pallekele International Cricket Stadium,Sri Lanka,Bangladesh,25.7,158,9,0,4,13,26,184,4,0,0,2,1,0,7
+425,NA,496,1,Bangladesh,Bulawayo,3/5/2013,field,Zimbabwe,Queens Sports Club,Zimbabwe,Bangladesh,49.7,237,18,0,5,9,32,269,6,0,1,0,1,0,8
+426,NA,496,2,Zimbabwe,Bulawayo,3/5/2013,field,Zimbabwe,Queens Sports Club,Zimbabwe,Bangladesh,32.1,137,7,2,0,2,11,148,1,0,5,3,1,0,10
+427,NA,497,1,Bangladesh,Bulawayo,5/5/2013,field,Zimbabwe,Queens Sports Club,Zimbabwe,Bangladesh,49.6,234,7,1,4,6,18,252,6,0,0,2,1,0,9
+428,NA,497,2,Zimbabwe,Bulawayo,5/5/2013,field,Zimbabwe,Queens Sports Club,Zimbabwe,Bangladesh,47.5,241,7,0,0,5,12,253,2,0,1,1,0,0,4
+429,NA,498,1,Bangladesh,Bulawayo,8/5/2013,field,Zimbabwe,Queens Sports Club,Zimbabwe,Bangladesh,49.6,235,9,2,0,1,12,247,7,0,1,0,1,0,9
+430,NA,498,2,Zimbabwe,Bulawayo,8/5/2013,field,Zimbabwe,Queens Sports Club,Zimbabwe,Bangladesh,47.1,238,5,1,0,7,13,251,3,0,0,0,0,0,3
+431,NA,499,1,Ireland,Amstelveen,7/7/2013,bat,Ireland,VRA Ground,Netherlands,Ireland,49.5,219,10,0,6,1,17,236,4,0,3,0,1,2,10
+432,NA,499,2,Netherlands,Amstelveen,7/7/2013,bat,Ireland,VRA Ground,Netherlands,Ireland,35.6,145,3,0,0,0,3,148,7,1,2,0,0,0,10
+433,NA,500,1,Sri Lanka,Colombo,20-07-2013,field,South Africa,R Premadasa Stadium,Sri Lanka,South Africa,49.6,294,15,1,1,5,22,316,3,0,2,0,0,0,5
+434,NA,500,2,South Africa,Colombo,20-07-2013,field,South Africa,R Premadasa Stadium,Sri Lanka,South Africa,31.5,127,2,0,4,7,13,140,6,0,3,0,0,1,10
+435,NA,501,1,Sri Lanka,Colombo,23-07-2013,bat,Sri Lanka,R Premadasa Stadium,Sri Lanka,South Africa,49.3,195,20,2,0,6,28,223,5,1,1,1,1,0,9
+436,NA,501,2,South Africa,Colombo,23-07-2013,bat,Sri Lanka,R Premadasa Stadium,Sri Lanka,South Africa,20.6,98,4,0,0,2,6,104,2,0,1,2,0,0,5
+437,NA,502,1,South Africa,,26-07-2013,bat,South Africa,Pallekele International Cricket Stadium,Sri Lanka,South Africa,49.6,218,2,0,0,3,5,223,3,0,3,0,1,0,7
+438,NA,502,2,Sri Lanka,,26-07-2013,bat,South Africa,Pallekele International Cricket Stadium,Sri Lanka,South Africa,43.2,156,6,0,1,4,11,167,8,0,2,0,0,0,10
+439,NA,503,1,South Africa,,28-07-2013,bat,South Africa,Pallekele International Cricket Stadium,Sri Lanka,South Africa,48.4,234,0,0,4,0,4,238,4,0,3,2,0,1,10
+440,NA,503,2,Sri Lanka,,28-07-2013,bat,South Africa,Pallekele International Cricket Stadium,Sri Lanka,South Africa,43.6,219,17,1,0,2,20,239,2,0,0,0,0,0,2
+441,NA,504,1,Sri Lanka,Colombo,31-07-2013,bat,Sri Lanka,R Premadasa Stadium,Sri Lanka,South Africa,49.7,291,8,0,0,8,16,307,3,0,1,0,0,0,4
+442,NA,504,2,South Africa,Colombo,31-07-2013,bat,Sri Lanka,R Premadasa Stadium,Sri Lanka,South Africa,43.5,168,11,0,0,0,11,179,5,0,3,2,0,0,10
+443,NA,505,1,England,,12/1/2014,bat,England,Melbourne Cricket Ground,Australia,England,49.6,265,3,0,0,1,4,269,4,0,2,1,0,0,7
+444,NA,505,2,Australia,,12/1/2014,bat,England,Melbourne Cricket Ground,Australia,England,45.4,254,10,0,0,6,16,270,3,0,1,0,0,0,4
+445,NA,506,1,England,Brisbane,17-01-2014,bat,England,"Brisbane Cricket Ground, Woolloongabba",Australia,England,49.6,283,12,1,0,4,17,300,4,1,0,1,1,1,8
+446,NA,506,2,Australia,Brisbane,17-01-2014,bat,England,"Brisbane Cricket Ground, Woolloongabba",Australia,England,49.3,282,10,0,0,9,19,301,5,1,1,2,0,0,9
+447,NA,507,1,England,,19-01-2014,bat,England,Sydney Cricket Ground,Australia,England,49.6,238,2,1,0,2,5,243,6,1,1,0,1,0,9
+448,NA,507,2,Australia,,19-01-2014,bat,England,Sydney Cricket Ground,Australia,England,39.6,233,5,0,2,4,11,244,2,0,1,0,0,0,3
+449,NA,508,1,England,Perth,24-01-2014,field,Australia,Western Australia Cricket Association Ground,Australia,England,49.6,300,16,0,0,0,16,316,7,0,1,0,0,0,8
+450,NA,508,2,Australia,Perth,24-01-2014,field,Australia,Western Australia Cricket Association Ground,Australia,England,47.4,245,9,0,0,5,14,259,9,0,1,0,0,0,10
+451,NA,509,1,Australia,,26-01-2014,bat,Australia,Adelaide Oval,Australia,England,49.6,204,4,0,0,9,13,217,5,0,3,1,0,0,9
+452,NA,509,2,England,,26-01-2014,bat,Australia,Adelaide Oval,Australia,England,49.4,201,6,0,1,4,11,212,7,0,1,0,1,1,10
+453,NA,510,1,West Indies,Antigua,28-02-2014,field,England,"Sir Vivian Richards Stadium, North Sound",West Indies,England,49.6,254,10,1,0,4,15,269,4,0,1,1,0,0,6
+454,NA,510,2,England,Antigua,28-02-2014,field,England,"Sir Vivian Richards Stadium, North Sound",West Indies,England,49.6,242,9,0,1,2,12,254,5,0,1,0,0,0,6
+455,NA,511,1,West Indies,Antigua,2/3/2014,field,England,"Sir Vivian Richards Stadium, North Sound",West Indies,England,44.2,148,6,0,0,5,11,159,5,1,2,0,0,2,10
+456,NA,511,2,England,Antigua,2/3/2014,field,England,"Sir Vivian Richards Stadium, North Sound",West Indies,England,44.5,152,5,1,0,5,11,163,3,1,1,1,1,0,7
+457,NA,512,1,England,Antigua,5/3/2014,field,West Indies,"Sir Vivian Richards Stadium, North Sound",West Indies,England,49.7,288,8,2,0,5,15,303,3,2,1,0,0,0,6
+458,NA,512,2,West Indies,Antigua,5/3/2014,field,West Indies,"Sir Vivian Richards Stadium, North Sound",West Indies,England,47.4,264,5,0,3,6,14,278,6,0,3,0,1,0,10
+459,NA,513,1,Zimbabwe,,24-07-2013,field,India,Harare Sports Club,Zimbabwe,India,49.6,215,4,0,2,7,13,228,2,0,4,1,0,0,7
+460,NA,513,2,India,,24-07-2013,field,India,Harare Sports Club,Zimbabwe,India,44.5,223,5,1,0,1,7,230,4,0,0,0,0,0,4
+461,NA,514,1,India,,26-07-2013,field,Zimbabwe,Harare Sports Club,Zimbabwe,India,49.6,266,15,8,0,5,28,294,5,0,1,0,2,0,8
+462,NA,514,2,Zimbabwe,,26-07-2013,field,Zimbabwe,Harare Sports Club,Zimbabwe,India,49.6,216,6,1,1,12,20,236,4,0,2,2,1,0,9
+463,NA,515,1,Zimbabwe,,28-07-2013,field,India,Harare Sports Club,Zimbabwe,India,45.7,166,10,2,0,5,17,183,6,0,1,2,1,0,10
+464,NA,515,2,India,,28-07-2013,field,India,Harare Sports Club,Zimbabwe,India,35.4,178,7,0,0,2,9,187,2,1,0,0,0,0,3
+465,NA,516,1,Zimbabwe,Bulawayo,1/8/2013,field,India,Queens Sports Club,Zimbabwe,India,42.5,136,4,0,2,2,8,144,5,0,3,1,1,0,10
+466,NA,516,2,India,Bulawayo,1/8/2013,field,India,Queens Sports Club,Zimbabwe,India,30.5,142,2,0,0,1,3,145,0,0,1,0,0,0,1
+467,NA,517,1,Zimbabwe,Bulawayo,3/8/2013,field,India,Queens Sports Club,Zimbabwe,India,39.6,153,3,3,0,4,10,163,7,0,2,1,0,0,10
+468,NA,517,2,India,Bulawayo,3/8/2013,field,India,Queens Sports Club,Zimbabwe,India,33.6,149,12,0,4,2,18,167,1,0,2,0,0,0,3
+469,NA,518,1,Pakistan,Guyana,14-07-2013,field,West Indies,Providence Stadium,West Indies,Pakistan,49.6,196,23,0,1,4,28,224,5,0,3,1,0,0,9
+470,NA,518,2,West Indies,Guyana,14-07-2013,field,West Indies,Providence Stadium,West Indies,Pakistan,40.7,80,11,0,1,6,18,98,3,1,1,3,1,1,10
+471,NA,519,1,West Indies,Guyana,16-07-2013,field,Pakistan,Providence Stadium,West Indies,Pakistan,49.7,194,21,1,5,11,38,232,2,0,3,0,2,1,8
+472,NA,519,2,Pakistan,Guyana,16-07-2013,field,Pakistan,Providence Stadium,West Indies,Pakistan,47.5,181,11,0,0,3,14,195,7,0,2,0,0,1,10
+473,NA,520,1,Pakistan,St Lucia,19-07-2013,field,West Indies,"Beausejour Stadium, Gros Islet",West Indies,Pakistan,49.7,212,11,0,0,6,17,229,5,0,1,0,0,0,6
+474,NA,520,2,West Indies,St Lucia,19-07-2013,field,West Indies,"Beausejour Stadium, Gros Islet",West Indies,Pakistan,49.6,214,12,0,1,2,15,229,5,0,4,0,0,0,9
+475,NA,521,1,West Indies,St Lucia,21-07-2013,field,Pakistan,"Beausejour Stadium, Gros Islet",West Indies,Pakistan,48.6,244,9,2,0,6,17,261,3,0,2,1,1,0,7
+476,NA,521,2,Pakistan,St Lucia,21-07-2013,field,Pakistan,"Beausejour Stadium, Gros Islet",West Indies,Pakistan,29.6,184,3,1,0,1,5,189,2,0,0,1,1,0,4
+477,NA,522,1,West Indies,St Lucia,24-07-2013,field,Pakistan,"Beausejour Stadium, Gros Islet",West Indies,Pakistan,49.6,227,9,0,0,6,15,242,7,0,0,0,0,0,7
+478,NA,522,2,Pakistan,St Lucia,24-07-2013,field,Pakistan,"Beausejour Stadium, Gros Islet",West Indies,Pakistan,49.5,229,9,0,0,5,14,243,5,0,0,0,1,0,6
+479,NA,523,1,Australia,Pune,13-10-2013,bat,Australia,Maharashtra Cricket Association Stadium,India,Australia,49.6,301,0,0,0,3,3,304,6,0,0,1,1,0,8
+480,NA,523,2,India,Pune,13-10-2013,bat,Australia,Maharashtra Cricket Association Stadium,India,Australia,49.4,221,5,0,2,4,11,232,7,0,2,1,0,0,10
+481,NA,524,1,Australia,Jaipur,16-10-2013,bat,Australia,Sawai Mansingh Stadium,India,Australia,49.6,349,5,0,0,5,10,359,3,0,0,0,2,0,5
+482,NA,524,2,India,Jaipur,16-10-2013,bat,Australia,Sawai Mansingh Stadium,India,Australia,43.3,336,21,0,0,5,26,362,1,0,0,0,0,0,1
+483,NA,525,1,India,Chandigarh,19-10-2013,field,Australia,"Punjab Cricket Association Stadium, Mohali",India,Australia,49.6,283,7,0,0,13,20,303,8,0,0,0,1,0,9
+484,NA,525,2,Australia,Chandigarh,19-10-2013,field,Australia,"Punjab Cricket Association Stadium, Mohali",India,Australia,49.3,281,9,0,0,14,23,304,2,0,0,3,1,0,6
+485,NA,526,1,Australia,Ranchi,23-10-2013,field,India,JSCA International Stadium Complex,India,Australia,49.6,285,3,0,0,7,10,295,2,0,3,2,0,1,8
+486,NA,526,2,India,Ranchi,23-10-2013,field,India,JSCA International Stadium Complex,India,Australia,4.1,23,0,0,4,0,4,27,0,0,0,0,0,0,0
+487,NA,527,1,Australia,Nagpur,30-10-2013,field,India,"Vidarbha Cricket Association Stadium, Jamtha",India,Australia,49.8,344,3,3,0,0,6,350,4,0,2,0,0,0,6
+488,NA,527,2,India,Nagpur,30-10-2013,field,India,"Vidarbha Cricket Association Stadium, Jamtha",India,Australia,49.3,335,7,1,0,8,16,351,2,0,2,0,0,0,4
+489,NA,528,1,India,Bangalore,2/11/2013,field,Australia,M Chinnaswamy Stadium,India,Australia,49.6,371,7,0,0,5,12,383,2,0,0,2,2,0,6
+490,NA,528,2,Australia,Bangalore,2/11/2013,field,Australia,M Chinnaswamy Stadium,India,Australia,45.1,322,2,1,0,1,4,326,5,0,3,1,1,0,10
+491,NA,529,1,South Africa,Johannesburg,5/12/2013,field,India,New Wanderers Stadium,South Africa,India,49.6,351,4,1,0,2,7,358,1,1,2,0,0,0,4
+492,NA,529,2,India,Johannesburg,5/12/2013,field,India,New Wanderers Stadium,South Africa,India,40.7,188,24,0,4,1,29,217,4,1,3,0,2,0,10
+493,NA,530,1,South Africa,Durban,8/12/2013,field,India,Kingsmead,South Africa,India,48.6,271,6,0,1,2,9,280,2,0,1,1,1,1,6
+494,NA,530,2,India,Durban,8/12/2013,field,India,Kingsmead,South Africa,India,35.1,132,8,1,4,1,14,146,8,0,2,0,0,0,10
+495,NA,531,1,South Africa,Centurion,11/12/2013,bat,South Africa,SuperSport Park,South Africa,India,49.6,296,3,0,0,2,5,301,5,0,2,1,0,0,8
+496,NA,532,1,South Africa,,30-10-2013,bat,South Africa,Sharjah Cricket Stadium,Pakistan,South Africa,49.5,178,4,0,0,1,5,183,4,3,0,2,0,1,10
+497,NA,532,2,Pakistan,,30-10-2013,bat,South Africa,Sharjah Cricket Stadium,Pakistan,South Africa,46.3,169,9,0,0,4,13,182,7,0,1,2,0,0,10
+498,NA,533,1,Pakistan,,1/11/2013,bat,Pakistan,Dubai International Cricket Stadium,Pakistan,South Africa,49.4,195,9,1,0,4,14,209,6,1,1,1,1,0,10
+499,NA,533,2,South Africa,,1/11/2013,bat,Pakistan,Dubai International Cricket Stadium,Pakistan,South Africa,40.4,138,3,1,0,1,5,143,3,0,3,3,0,1,10
+500,NA,534,1,South Africa,Abu Dhabi,6/11/2013,bat,South Africa,Sheikh Zayed Stadium,Pakistan,South Africa,49.6,252,5,0,1,1,7,259,3,0,2,1,0,2,8
+501,NA,534,2,Pakistan,Abu Dhabi,6/11/2013,bat,South Africa,Sheikh Zayed Stadium,Pakistan,South Africa,44.3,172,12,0,5,2,19,191,6,1,0,3,0,0,10
+502,NA,535,1,South Africa,Abu Dhabi,8/11/2013,bat,South Africa,Sheikh Zayed Stadium,Pakistan,South Africa,49.6,256,0,0,1,9,10,266,3,0,1,1,0,0,5
+503,NA,535,2,Pakistan,Abu Dhabi,8/11/2013,bat,South Africa,Sheikh Zayed Stadium,Pakistan,South Africa,49.2,230,7,0,0,1,8,238,5,0,3,0,2,0,10
+504,NA,536,1,South Africa,,11/11/2013,bat,South Africa,Sharjah Cricket Stadium,Pakistan,South Africa,49.6,252,7,0,4,5,16,268,3,1,1,2,0,0,7
+505,NA,536,2,Pakistan,,11/11/2013,bat,South Africa,Sharjah Cricket Stadium,Pakistan,South Africa,35.4,140,11,0,0,0,11,151,5,1,1,3,0,0,10
+506,NA,537,1,Pakistan,,18-12-2013,bat,Pakistan,Sharjah Cricket Stadium,Pakistan,Sri Lanka,49.6,311,7,0,0,4,11,322,2,0,1,1,1,0,5
+507,NA,537,2,Sri Lanka,,18-12-2013,bat,Pakistan,Sharjah Cricket Stadium,Pakistan,Sri Lanka,49.4,295,4,0,8,4,16,311,7,0,0,1,2,0,10
+508,NA,538,1,Pakistan,,20-12-2013,field,Sri Lanka,Dubai International Cricket Stadium,Pakistan,Sri Lanka,49.7,270,10,1,0,3,14,284,1,0,0,2,1,0,4
+509,NA,538,2,Sri Lanka,,20-12-2013,field,Sri Lanka,Dubai International Cricket Stadium,Pakistan,Sri Lanka,49.4,270,6,2,0,9,17,287,1,0,4,0,2,1,8
+510,NA,539,1,Pakistan,,22-12-2013,field,Sri Lanka,Sharjah Cricket Stadium,Pakistan,Sri Lanka,49.6,309,7,0,0,10,17,326,2,0,2,0,1,0,5
+511,NA,539,2,Sri Lanka,,22-12-2013,field,Sri Lanka,Sharjah Cricket Stadium,Pakistan,Sri Lanka,44.4,208,3,0,0,2,5,213,8,0,2,0,0,0,10
+512,NA,540,1,Sri Lanka,Abu Dhabi,25-12-2013,bat,Sri Lanka,Sheikh Zayed Stadium,Pakistan,Sri Lanka,48.5,214,9,1,0,1,11,225,4,1,3,1,1,0,10
+513,NA,540,2,Pakistan,Abu Dhabi,25-12-2013,bat,Sri Lanka,Sheikh Zayed Stadium,Pakistan,Sri Lanka,41.1,216,5,0,4,1,10,226,1,0,1,0,0,0,2
+514,NA,541,1,Pakistan,Abu Dhabi,27-12-2013,bat,Pakistan,Sheikh Zayed Stadium,Pakistan,Sri Lanka,49.3,212,10,0,0,10,20,232,4,1,1,3,1,0,10
+515,NA,541,2,Sri Lanka,Abu Dhabi,27-12-2013,bat,Pakistan,Sheikh Zayed Stadium,Pakistan,Sri Lanka,49.4,223,5,0,0,7,12,235,4,0,3,1,0,0,8
+516,NA,542,1,Pakistan,,27-08-2013,bat,Pakistan,Harare Sports Club,Zimbabwe,Pakistan,49.6,228,9,0,0,7,16,244,4,0,0,0,2,1,7
+517,NA,542,2,Zimbabwe,,27-08-2013,bat,Pakistan,Harare Sports Club,Zimbabwe,Pakistan,48.2,239,3,0,1,3,7,246,2,0,0,1,0,0,3
+518,NA,543,1,Pakistan,,29-08-2013,field,Zimbabwe,Harare Sports Club,Zimbabwe,Pakistan,49.6,274,20,2,0,3,25,299,2,0,0,1,1,0,4
+519,NA,543,2,Zimbabwe,,29-08-2013,field,Zimbabwe,Harare Sports Club,Zimbabwe,Pakistan,42.4,198,4,1,0,6,11,209,4,0,3,1,1,1,10
+520,NA,544,1,Pakistan,,31-08-2013,field,Zimbabwe,Harare Sports Club,Zimbabwe,Pakistan,49.8,247,11,0,0,2,13,260,5,1,0,0,0,0,6
+521,NA,544,2,Zimbabwe,,31-08-2013,field,Zimbabwe,Harare Sports Club,Zimbabwe,Pakistan,39.6,136,13,0,0,3,16,152,2,1,1,2,3,1,10
+522,NA,545,1,Netherlands,King City,27-08-2013,field,Canada,Maple Leaf North-West Ground,Canada,Netherlands,27.5,135,7,0,0,1,8,143,6,0,2,0,2,0,10
+523,NA,545,2,Canada,King City,27-08-2013,field,Canada,Maple Leaf North-West Ground,Canada,Netherlands,9.6,53,8,0,0,1,9,62,1,0,0,0,0,0,1
+524,NA,546,1,Canada,King City,29-08-2013,field,Netherlands,Maple Leaf North-West Ground,Canada,Netherlands,24.4,53,14,0,0,0,14,67,4,0,3,3,0,0,10
+525,NA,546,2,Netherlands,King City,29-08-2013,field,Netherlands,Maple Leaf North-West Ground,Canada,Netherlands,10.4,66,4,0,0,0,4,70,1,0,0,0,0,0,1
+526,NA,547,1,Scotland,Belfast,6/9/2013,bat,Scotland,"Civil Service Cricket Club, Stormont",Ireland,Scotland,49.6,208,13,0,1,1,15,223,3,0,3,1,1,1,9
+527,NA,547,2,Ireland,Belfast,6/9/2013,bat,Scotland,"Civil Service Cricket Club, Stormont",Ireland,Scotland,49.5,212,7,0,4,2,13,225,7,0,0,0,0,2,9
+528,NA,548,1,New Zealand,Auckland,26-12-2013,field,West Indies,Eden Park,New Zealand,West Indies,42.2,147,3,0,0,6,9,156,7,0,0,2,1,0,10
+529,NA,548,2,West Indies,Auckland,26-12-2013,field,West Indies,Eden Park,New Zealand,West Indies,27.3,134,14,1,0,8,23,157,4,0,3,1,0,0,8
+530,NA,549,1,New Zealand,,1/1/2014,field,West Indies,Queenstown Events Centre,New Zealand,West Indies,20.6,281,2,0,0,0,2,283,4,0,0,0,0,0,4
+531,NA,549,2,West Indies,,1/1/2014,field,West Indies,Queenstown Events Centre,New Zealand,West Indies,20.6,117,2,0,0,5,7,124,5,0,0,0,0,0,5
+532,NA,550,1,New Zealand,Nelson,4/1/2014,bat,New Zealand,Saxton Oval,New Zealand,West Indies,49.6,273,6,1,0,5,12,285,4,0,1,0,1,0,6
+533,NA,550,2,West Indies,Nelson,4/1/2014,bat,New Zealand,Saxton Oval,New Zealand,West Indies,33.4,130,1,0,0,3,4,134,3,0,0,0,2,0,5
+534,NA,551,1,West Indies,Hamilton,8/1/2014,field,New Zealand,Seddon Park,New Zealand,West Indies,49.7,348,11,0,0,4,15,363,2,0,0,1,1,0,4
+535,NA,551,2,New Zealand,Hamilton,8/1/2014,field,New Zealand,Seddon Park,New Zealand,West Indies,29.5,151,3,0,0,6,9,160,6,0,1,1,1,0,10
+536,NA,552,1,New Zealand,Napier,19-01-2014,field,India,McLean Park,New Zealand,India,49.7,285,6,0,0,1,7,292,5,1,1,0,0,0,7
+537,NA,552,2,India,Napier,19-01-2014,field,India,McLean Park,New Zealand,India,48.4,253,12,0,0,3,15,268,8,0,1,0,1,0,10
+538,NA,553,1,New Zealand,Hamilton,22-01-2014,field,India,Seddon Park,New Zealand,India,41.6,263,7,0,0,1,8,271,4,1,1,0,0,1,7
+539,NA,553,2,India,Hamilton,22-01-2014,field,India,Seddon Park,New Zealand,India,41.3,267,7,0,0,3,10,277,7,0,2,0,0,0,9
+540,NA,554,1,New Zealand,Auckland,25-01-2014,field,India,Eden Park,New Zealand,India,49.6,293,11,0,0,10,21,314,4,0,3,0,3,0,10
+541,NA,554,2,India,Auckland,25-01-2014,field,India,Eden Park,New Zealand,India,49.8,296,14,0,1,3,18,314,9,0,0,0,0,0,9
+542,NA,555,1,India,Hamilton,28-01-2014,bat,India,Seddon Park,New Zealand,India,49.6,267,7,0,0,4,11,278,5,0,0,0,0,0,5
+543,NA,555,2,New Zealand,Hamilton,28-01-2014,bat,India,Seddon Park,New Zealand,India,48.1,275,3,1,1,0,5,280,0,0,1,1,1,0,3
+544,NA,556,1,New Zealand,Wellington,31-01-2014,field,India,Westpac Stadium,New Zealand,India,49.6,291,5,0,1,6,12,303,5,0,0,0,0,0,5
+545,NA,556,2,India,Wellington,31-01-2014,field,India,Westpac Stadium,New Zealand,India,49.4,210,4,1,0,1,6,216,7,0,2,1,0,0,10
+546,NA,557,1,England,London,22-05-2014,field,Sri Lanka,Kennington Oval,England,Sri Lanka,38.6,240,5,0,1,1,7,247,3,0,1,2,0,0,6
+547,NA,557,2,Sri Lanka,London,22-05-2014,field,Sri Lanka,Kennington Oval,England,Sri Lanka,27.5,129,6,2,5,2,15,144,7,0,2,1,0,0,10
+548,NA,558,1,Sri Lanka,Chester-le-Street,25-05-2014,field,England,Riverside Ground,England,Sri Lanka,49.6,236,15,0,0,5,20,256,6,0,1,0,1,0,8
+549,NA,558,2,England,Chester-le-Street,25-05-2014,field,England,Riverside Ground,England,Sri Lanka,26.1,90,5,1,0,3,9,99,5,0,3,2,0,0,10
+550,NA,559,1,Sri Lanka,Manchester,28-05-2014,field,England,Old Trafford,England,Sri Lanka,23.6,60,4,0,0,3,7,67,7,0,0,2,1,0,10
+551,NA,559,2,England,Manchester,28-05-2014,field,England,Old Trafford,England,Sri Lanka,12.1,71,2,0,0,0,2,73,0,0,0,0,0,0,0
+552,NA,560,1,Sri Lanka,London,31-05-2014,field,England,Lord's,England,Sri Lanka,49.7,280,16,1,0,3,20,300,6,0,2,0,0,1,9
+553,NA,560,2,England,London,31-05-2014,field,England,Lord's,England,Sri Lanka,49.6,283,3,1,0,6,10,293,5,0,0,1,1,1,8
+554,NA,561,1,England,Birmingham,3/6/2014,bat,England,Edgbaston,England,Sri Lanka,48.1,203,12,1,0,3,16,219,3,2,3,0,2,0,10
+555,NA,561,2,Sri Lanka,Birmingham,3/6/2014,bat,England,Edgbaston,England,Sri Lanka,48.2,204,12,0,0,6,18,222,3,0,0,1,0,0,4
+556,NA,562,1,Bangladesh,Mirpur,29-10-2013,field,New Zealand,Shere Bangla National Stadium,Bangladesh,New Zealand,49.5,249,13,1,0,2,16,265,7,0,1,1,1,0,10
+557,NA,562,2,New Zealand,Mirpur,29-10-2013,field,New Zealand,Shere Bangla National Stadium,Bangladesh,New Zealand,29.5,159,1,0,0,2,3,162,6,0,3,0,0,0,9
+558,NA,563,1,Bangladesh,Mirpur,31-10-2013,bat,Bangladesh,Shere Bangla National Stadium,Bangladesh,New Zealand,48.6,231,4,2,5,5,16,247,5,1,3,0,0,1,10
+559,NA,563,2,New Zealand,Mirpur,31-10-2013,bat,Bangladesh,Shere Bangla National Stadium,Bangladesh,New Zealand,46.5,190,6,0,1,10,17,207,4,1,2,2,1,0,10
+560,NA,564,1,New Zealand,Fatullah,3/11/2013,field,Bangladesh,Khan Shaheb Osman Ali Stadium,Bangladesh,New Zealand,49.6,298,6,0,0,3,9,307,5,0,0,0,0,0,5
+561,NA,564,2,Bangladesh,Fatullah,3/11/2013,field,Bangladesh,Khan Shaheb Osman Ali Stadium,Bangladesh,New Zealand,49.2,286,9,7,4,3,23,309,4,1,0,0,1,0,6
+562,NA,565,1,Sri Lanka,Hambantota,10/11/2013,field,New Zealand,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,New Zealand,49.6,272,8,1,0,7,16,288,4,1,3,1,0,0,9
+563,NA,565,2,New Zealand,Hambantota,10/11/2013,field,New Zealand,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,New Zealand,4.2,5,6,0,0,2,8,13,0,0,1,0,0,0,1
+564,NA,566,1,Sri Lanka,Hambantota,12/11/2013,bat,Sri Lanka,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,New Zealand,22.7,130,4,1,1,2,8,138,1,0,0,0,0,0,1
+565,NA,566,2,New Zealand,Hambantota,12/11/2013,bat,Sri Lanka,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,New Zealand,22.6,195,3,0,0,5,8,203,5,0,0,0,0,1,6
+566,NA,567,1,Sri Lanka,,16-11-2013,field,New Zealand,Rangiri Dambulla International Stadium,Sri Lanka,New Zealand,32.7,197,9,1,1,3,14,211,6,0,1,1,0,0,8
+567,NA,567,2,New Zealand,,16-11-2013,field,New Zealand,Rangiri Dambulla International Stadium,Sri Lanka,New Zealand,24.6,119,6,0,0,1,7,126,2,0,2,1,0,1,6
+568,NA,568,1,West Indies,Kochi,21-11-2013,bat,West Indies,Nehru Stadium,India,West Indies,48.5,204,6,0,0,1,7,211,2,2,3,1,1,1,10
+569,NA,568,2,India,Kochi,21-11-2013,bat,West Indies,Nehru Stadium,India,West Indies,35.2,192,15,0,5,0,20,212,4,0,0,0,0,0,4
+570,NA,569,1,India,Visakhapatnam,24-11-2013,field,West Indies,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,India,West Indies,49.6,278,9,0,0,1,10,288,5,0,1,1,0,0,7
+571,NA,569,2,West Indies,Visakhapatnam,24-11-2013,field,West Indies,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,India,West Indies,49.3,279,3,0,0,7,10,289,5,1,0,1,0,1,8
+572,NA,570,1,West Indies,Kanpur,27-11-2013,field,India,Green Park,India,West Indies,49.6,257,3,1,0,2,6,263,3,0,2,0,0,0,5
+573,NA,570,2,India,Kanpur,27-11-2013,field,India,Green Park,India,West Indies,46.1,256,4,1,0,5,10,266,4,1,0,0,0,0,5
+574,NA,571,1,England,Aberdeen,9/5/2014,field,Scotland,Mannofield Park,Scotland,England,19.6,161,4,1,1,0,6,167,5,0,1,0,0,0,6
+575,NA,571,2,Scotland,Aberdeen,9/5/2014,field,Scotland,Mannofield Park,Scotland,England,19.6,132,1,0,0,0,1,133,5,0,4,0,0,0,9
+576,NA,572,1,Pakistan,Cape Town,24-11-2013,bat,Pakistan,Newlands,South Africa,Pakistan,49.6,210,5,0,2,1,8,218,7,0,1,1,0,0,9
+577,NA,572,2,South Africa,Cape Town,24-11-2013,bat,Pakistan,Newlands,South Africa,Pakistan,48.1,193,2,0,0,0,2,195,3,0,6,0,0,1,10
+578,NA,573,1,Pakistan,Port Elizabeth,27-11-2013,field,South Africa,St George's Park,South Africa,Pakistan,44.6,248,13,0,0,1,14,262,7,0,1,0,1,0,10
+579,NA,573,2,South Africa,Port Elizabeth,27-11-2013,field,South Africa,St George's Park,South Africa,Pakistan,44.6,243,5,0,1,12,18,261,6,0,0,0,0,0,6
+580,NA,574,1,Pakistan,Centurion,30-11-2013,field,South Africa,SuperSport Park,South Africa,Pakistan,46.5,165,13,0,0,1,14,179,9,1,0,0,0,0,10
+581,NA,574,2,South Africa,Centurion,30-11-2013,field,South Africa,SuperSport Park,South Africa,Pakistan,38.4,175,0,2,0,4,6,181,3,0,1,0,1,1,6
+582,NA,575,1,Sri Lanka,Mirpur,17-02-2014,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,Sri Lanka,39.6,170,9,0,0,1,10,180,3,0,3,2,2,0,10
+583,NA,575,2,Bangladesh,Mirpur,17-02-2014,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,Sri Lanka,39.2,161,2,1,1,2,6,167,7,0,0,0,3,0,10
+584,NA,576,1,Sri Lanka,Mirpur,20-02-2014,bat,Sri Lanka,Shere Bangla National Stadium,Bangladesh,Sri Lanka,49.6,282,4,0,0,3,7,289,5,0,0,1,0,0,6
+585,NA,576,2,Bangladesh,Mirpur,20-02-2014,bat,Sri Lanka,Shere Bangla National Stadium,Bangladesh,Sri Lanka,42.7,214,7,1,3,3,14,228,8,0,0,1,1,0,10
+586,NA,577,1,Bangladesh,Mirpur,22-02-2014,field,Sri Lanka,Shere Bangla National Stadium,Bangladesh,Sri Lanka,49.6,231,7,0,0,2,9,240,6,0,1,0,1,0,8
+587,NA,577,2,Sri Lanka,Mirpur,22-02-2014,field,Sri Lanka,Shere Bangla National Stadium,Bangladesh,Sri Lanka,47.3,239,3,0,0,4,7,246,2,0,2,0,0,0,4
+588,NA,578,1,Scotland,Christchurch,23-01-2014,field,Canada,Hagley Oval,Canada,Scotland,49.6,327,5,2,0,7,14,341,8,0,0,0,0,1,9
+589,NA,578,2,Canada,Christchurch,23-01-2014,field,Canada,Hagley Oval,Canada,Scotland,39.2,148,19,0,0,4,23,171,6,0,0,2,2,0,10
+590,NA,579,1,Netherlands,Lincoln,23-01-2014,field,Kenya,Bert Sutcliffe Oval,Kenya,Netherlands,49.6,258,2,1,0,4,7,265,0,1,2,0,2,1,6
+591,NA,579,2,Kenya,Lincoln,23-01-2014,field,Kenya,Bert Sutcliffe Oval,Kenya,Netherlands,35.5,254,4,0,0,8,12,266,3,0,1,2,0,0,6
+592,NA,580,1,Canada,Mount Maunganui,28-01-2014,bat,Canada,Bay Oval,Canada,Netherlands,49.6,204,3,2,0,1,6,210,5,0,1,2,2,0,10
+593,NA,580,2,Netherlands,Mount Maunganui,28-01-2014,bat,Canada,Bay Oval,Canada,Netherlands,36.4,200,5,3,4,0,12,212,0,0,1,1,0,0,2
+594,NA,581,1,Kenya,Christchurch,30-01-2014,bat,Kenya,Hagley Oval,Kenya,Scotland,49.6,236,14,0,1,9,24,260,4,0,1,1,4,0,10
+595,NA,581,2,Scotland,Christchurch,30-01-2014,bat,Kenya,Hagley Oval,Kenya,Scotland,49.3,257,3,1,0,0,4,261,3,1,0,2,1,0,7
+596,NA,582,1,Ireland,Jamaica,23-02-2014,bat,Ireland,"Sabina Park, Kingston",West Indies,Ireland,49.2,190,7,3,0,2,12,202,6,2,2,0,0,0,10
+597,NA,582,2,West Indies,Jamaica,23-02-2014,bat,Ireland,"Sabina Park, Kingston",West Indies,Ireland,36.4,192,8,0,0,5,13,205,3,0,0,1,1,1,6
+598,NA,583,1,Sri Lanka,Dublin,6/5/2014,field,Ireland,Clontarf Cricket Club Ground,Ireland,Sri Lanka,49.6,200,18,0,0,1,19,219,6,1,0,0,1,0,8
+599,NA,583,2,Ireland,Dublin,6/5/2014,field,Ireland,Clontarf Cricket Club Ground,Ireland,Sri Lanka,39.5,133,4,0,0,3,7,140,3,0,2,4,1,0,10
+600,NA,584,1,Sri Lanka,Fatullah,25-02-2014,bat,Sri Lanka,Khan Shaheb Osman Ali Stadium,Pakistan,Sri Lanka,49.6,278,8,0,4,6,18,296,3,0,2,0,1,0,6
+601,NA,584,2,Pakistan,Fatullah,25-02-2014,bat,Sri Lanka,Khan Shaheb Osman Ali Stadium,Pakistan,Sri Lanka,48.5,271,10,0,0,3,13,284,6,0,2,2,0,0,10
+602,NA,585,1,Bangladesh,Fatullah,26-02-2014,field,India,Khan Shaheb Osman Ali Stadium,Bangladesh,India,49.6,261,12,2,1,3,18,279,4,1,1,0,0,1,7
+603,NA,585,2,India,Fatullah,26-02-2014,field,India,Khan Shaheb Osman Ali Stadium,Bangladesh,India,48.6,269,9,1,0,1,11,280,1,0,2,1,0,0,4
+604,NA,586,1,Pakistan,Fatullah,27-02-2014,field,Afghanistan,Khan Shaheb Osman Ali Stadium,Afghanistan,Pakistan,49.7,243,2,1,0,2,5,248,4,0,3,0,1,0,8
+605,NA,586,2,Afghanistan,Fatullah,27-02-2014,field,Afghanistan,Khan Shaheb Osman Ali Stadium,Afghanistan,Pakistan,47.2,163,5,0,8,0,13,176,3,0,3,2,2,0,10
+606,NA,587,1,India,Fatullah,28-02-2014,field,Sri Lanka,Khan Shaheb Osman Ali Stadium,India,Sri Lanka,49.6,253,6,0,4,1,11,264,3,0,3,2,0,1,9
+607,NA,587,2,Sri Lanka,Fatullah,28-02-2014,field,Sri Lanka,Khan Shaheb Osman Ali Stadium,India,Sri Lanka,49.2,257,1,0,0,7,8,265,4,0,1,3,0,0,8
+608,NA,588,1,Afghanistan,Fatullah,1/3/2014,field,Bangladesh,Khan Shaheb Osman Ali Stadium,Bangladesh,Afghanistan,49.6,237,10,0,1,6,17,254,1,1,1,1,2,0,6
+609,NA,588,2,Bangladesh,Fatullah,1/3/2014,field,Bangladesh,Khan Shaheb Osman Ali Stadium,Bangladesh,Afghanistan,47.5,210,6,0,4,2,12,222,4,0,3,2,1,0,10
+610,NA,589,1,India,Mirpur,2/3/2014,field,Pakistan,Shere Bangla National Stadium,India,Pakistan,49.6,237,5,0,0,3,8,245,6,0,0,1,0,1,8
+611,NA,589,2,Pakistan,Mirpur,2/3/2014,field,Pakistan,Shere Bangla National Stadium,India,Pakistan,49.4,232,6,0,0,11,17,249,5,0,2,0,2,0,9
+612,NA,590,1,Sri Lanka,Mirpur,3/3/2014,bat,Sri Lanka,Shere Bangla National Stadium,Afghanistan,Sri Lanka,49.7,235,6,6,0,6,18,253,2,0,3,0,1,0,6
+613,NA,590,2,Afghanistan,Mirpur,3/3/2014,bat,Sri Lanka,Shere Bangla National Stadium,Afghanistan,Sri Lanka,38.4,115,7,0,0,2,9,124,5,0,3,2,0,0,10
+614,NA,591,1,Bangladesh,Mirpur,4/3/2014,bat,Bangladesh,Shere Bangla National Stadium,Bangladesh,Pakistan,49.6,305,15,3,0,3,21,326,3,0,0,0,0,0,3
+615,NA,591,2,Pakistan,Mirpur,4/3/2014,bat,Bangladesh,Shere Bangla National Stadium,Bangladesh,Pakistan,49.5,316,9,0,1,3,13,329,3,0,2,0,2,0,7
+616,NA,592,1,Afghanistan,Mirpur,5/3/2014,field,India,Shere Bangla National Stadium,Afghanistan,India,45.2,145,12,0,0,2,14,159,5,0,1,4,0,0,10
+617,NA,592,2,India,Mirpur,5/3/2014,field,India,Shere Bangla National Stadium,Afghanistan,India,32.2,155,3,1,0,1,5,160,0,0,1,1,0,0,2
+618,NA,593,1,Bangladesh,Mirpur,6/3/2014,bat,Bangladesh,Shere Bangla National Stadium,Bangladesh,Sri Lanka,49.6,187,10,0,4,3,17,204,3,0,4,2,0,0,9
+619,NA,593,2,Sri Lanka,Mirpur,6/3/2014,bat,Bangladesh,Shere Bangla National Stadium,Bangladesh,Sri Lanka,48.6,199,5,0,4,0,9,208,5,0,0,0,2,0,7
+620,NA,594,1,Pakistan,Mirpur,8/3/2014,bat,Pakistan,Shere Bangla National Stadium,Pakistan,Sri Lanka,49.6,254,5,0,0,1,6,260,5,0,0,0,0,0,5
+621,NA,594,2,Sri Lanka,Mirpur,8/3/2014,bat,Pakistan,Shere Bangla National Stadium,Pakistan,Sri Lanka,46.2,253,5,1,1,1,8,261,2,0,1,1,0,1,5
+622,NA,595,1,South Africa,Colombo,6/7/2014,bat,South Africa,R Premadasa Stadium,Sri Lanka,South Africa,49.7,285,10,1,0,8,19,304,2,0,1,2,0,0,5
+623,NA,595,2,Sri Lanka,Colombo,6/7/2014,bat,South Africa,R Premadasa Stadium,Sri Lanka,South Africa,40.3,218,4,2,0,5,11,229,7,0,3,0,0,0,10
+624,NA,596,1,Sri Lanka,,9/7/2014,bat,Sri Lanka,Pallekele International Cricket Stadium,Sri Lanka,South Africa,49.2,254,9,2,1,1,13,267,8,0,2,0,0,0,10
+625,NA,596,2,South Africa,,9/7/2014,bat,Sri Lanka,Pallekele International Cricket Stadium,Sri Lanka,South Africa,38.1,167,9,0,0,4,13,180,7,0,2,1,0,0,10
+626,NA,597,1,South Africa,Hambantota,12/7/2014,bat,South Africa,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,South Africa,49.6,323,9,0,4,3,16,339,3,1,0,1,0,0,5
+627,NA,597,2,Sri Lanka,Hambantota,12/7/2014,bat,South Africa,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,South Africa,44.3,229,20,2,2,4,28,257,7,1,1,0,1,0,10
+628,NA,598,1,Bangladesh,Grenada,20-08-2014,field,West Indies,"National Cricket Stadium, St George's",West Indies,Bangladesh,49.6,206,8,1,0,2,11,217,5,0,1,1,2,0,9
+629,NA,598,2,West Indies,Grenada,20-08-2014,field,West Indies,"National Cricket Stadium, St George's",West Indies,Bangladesh,39.4,213,5,0,0,1,6,219,5,0,2,0,0,0,7
+630,NA,599,1,West Indies,Grenada,22-08-2014,field,Bangladesh,"National Cricket Stadium, St George's",West Indies,Bangladesh,49.6,232,12,0,1,2,15,247,4,0,2,1,0,0,7
+631,NA,599,2,Bangladesh,Grenada,22-08-2014,field,Bangladesh,"National Cricket Stadium, St George's",West Indies,Bangladesh,24.4,65,5,0,0,0,5,70,6,0,2,1,1,0,10
+632,NA,600,1,South Africa,Bulawayo,17-08-2014,field,Zimbabwe,Queens Sports Club,Zimbabwe,South Africa,49.6,287,16,0,0,6,22,309,3,0,0,0,0,0,3
+633,NA,600,2,Zimbabwe,Bulawayo,17-08-2014,field,Zimbabwe,Queens Sports Club,Zimbabwe,South Africa,49.5,207,4,1,0,4,9,216,7,0,1,2,0,0,10
+634,NA,601,1,South Africa,Bulawayo,19-08-2014,field,Zimbabwe,Queens Sports Club,Zimbabwe,South Africa,49.4,243,7,0,0,7,14,257,6,0,2,1,1,0,10
+635,NA,601,2,Zimbabwe,Bulawayo,19-08-2014,field,Zimbabwe,Queens Sports Club,Zimbabwe,South Africa,49.1,179,6,1,2,8,17,196,5,0,3,2,0,0,10
+636,NA,602,1,Zimbabwe,Bulawayo,21-08-2014,field,South Africa,Queens Sports Club,Zimbabwe,South Africa,39.5,148,11,0,0,6,17,165,4,0,3,3,0,0,10
+637,NA,602,2,South Africa,Bulawayo,21-08-2014,field,South Africa,Queens Sports Club,Zimbabwe,South Africa,27.2,165,5,1,0,0,6,171,1,0,1,0,1,0,3
+638,NA,603,1,Afghanistan,Kuala Lumpur,2/5/2014,field,United Arab Emirates,Kinrara Academy Oval,Afghanistan,United Arab Emirates,49.6,291,4,0,4,3,11,302,1,1,0,2,0,1,5
+639,NA,603,2,United Arab Emirates,Kuala Lumpur,2/5/2014,field,United Arab Emirates,Kinrara Academy Oval,Afghanistan,United Arab Emirates,44.3,209,10,0,0,13,23,232,6,1,2,1,0,0,10
+640,NA,604,1,Hong Kong,Kuala Lumpur,4/5/2014,field,United Arab Emirates,Kinrara Academy Oval,Hong Kong,United Arab Emirates,45.2,145,5,0,2,5,12,157,4,2,2,1,1,0,10
+641,NA,604,2,United Arab Emirates,Kuala Lumpur,4/5/2014,field,United Arab Emirates,Kinrara Academy Oval,Hong Kong,United Arab Emirates,48.3,144,14,0,0,0,14,158,4,1,0,3,0,0,8
+642,NA,605,1,Bangladesh,Mirpur,15-06-2014,bat,Bangladesh,Shere Bangla National Stadium,Bangladesh,India,49.6,261,8,0,0,3,11,272,6,1,2,0,0,0,9
+643,NA,605,2,India,Mirpur,15-06-2014,bat,Bangladesh,Shere Bangla National Stadium,Bangladesh,India,24.5,145,8,0,0,0,8,153,1,0,0,2,0,0,3
+644,NA,606,1,India,Mirpur,17-06-2014,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,India,25.3,94,5,0,0,6,11,105,3,0,1,5,1,0,10
+645,NA,606,2,Bangladesh,Mirpur,17-06-2014,field,Bangladesh,Shere Bangla National Stadium,Bangladesh,India,17.4,52,6,0,0,0,6,58,8,0,2,0,0,0,10
+646,NA,607,1,India,Mirpur,19-06-2014,bat,India,Shere Bangla National Stadium,Bangladesh,India,34.2,106,10,0,0,3,13,119,6,0,1,2,0,0,9
+647,NA,608,1,Sri Lanka,Hambantota,23-08-2014,field,Pakistan,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,Pakistan,44.6,262,10,0,0,3,13,275,3,0,2,1,1,0,7
+648,NA,608,2,Pakistan,Hambantota,23-08-2014,field,Pakistan,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Sri Lanka,Pakistan,44.5,266,7,0,4,0,11,277,4,0,1,1,0,0,6
+649,NA,609,1,Afghanistan,Bulawayo,20-07-2014,field,Zimbabwe,Queens Sports Club,Zimbabwe,Afghanistan,49.6,243,7,1,4,1,13,256,5,0,2,0,0,0,7
+650,NA,609,2,Zimbabwe,Bulawayo,20-07-2014,field,Zimbabwe,Queens Sports Club,Zimbabwe,Afghanistan,43.3,247,2,3,0,5,10,257,1,0,0,1,0,0,2
+651,NA,610,1,Zimbabwe,Bulawayo,22-07-2014,field,Afghanistan,Queens Sports Club,Zimbabwe,Afghanistan,49.6,248,4,2,5,2,13,261,5,0,1,0,2,0,8
+652,NA,610,2,Afghanistan,Bulawayo,22-07-2014,field,Afghanistan,Queens Sports Club,Zimbabwe,Afghanistan,49.4,256,5,1,0,2,8,264,4,0,1,1,2,0,8
+653,NA,611,1,Afghanistan,Bulawayo,24-07-2014,field,Zimbabwe,Queens Sports Club,Zimbabwe,Afghanistan,49.1,247,10,0,0,2,12,259,7,1,0,1,1,0,10
+654,NA,611,2,Zimbabwe,Bulawayo,24-07-2014,field,Zimbabwe,Queens Sports Club,Zimbabwe,Afghanistan,37.6,151,4,2,1,1,8,159,4,1,2,2,1,0,10
