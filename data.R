@@ -27,3 +27,5 @@ Bowlers_records =  as.data.frame(t(sapply(Bowlers,bowler_record)),row.names=FALS
 # Generating Partnership information #
 Partnership_info_df=get_partnership(Cricket)
 
+# Generating Match Information#
+Match_info_df = get_matches(Cricket);

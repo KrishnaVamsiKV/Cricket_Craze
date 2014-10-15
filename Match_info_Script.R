@@ -1,4 +1,13 @@
-Cricket_Factors=split(Cricket,Cricket$Match.No+Cricket$Innings/10);
+get_matches = function(Cricket){
+  Cricket_Factors=split(Cricket,Cricket$Match.No+Cricket$Innings/10);
+  Match_info=lapply(Cricket_Factors,give_df);
+
+  Match_info_df=(Match_info[[1]]);
+  for(i in 2:654){
+    Match_info_df=rbind(Match_info_df,Match_info[[i]]);
+  }
+  return(Match_info_df);
+}
 give_df=function(df){
   final_df=data.frame(matrix(nrow=1));
   final_df$Match.No=unique(df$Match.No);
@@ -38,12 +47,7 @@ give_df=function(df){
                                   if(!(is.na(match("caught and bowled",aa[,1])))){aa[aa[,1]=="caught and bowled",2]});
   return(final_df);
 }
-Match_info=lapply(Cricket_Factors,give_df);
 
-Match_info_df=(Match_info[[1]]);
-for(i in 2:654){
-  Match_info_df=rbind(Match_info_df,Match_info[[i]]);
-}
 
 
 

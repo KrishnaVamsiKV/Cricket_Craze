@@ -6,6 +6,9 @@ get_partnership=function(ab){
   for(i in 2:9796){
     Partnership_info_df=rbind(Partnership_info_df,list_partner[[i]]);
   }
+  Partnership_info_df$player2_score=apply(Partnership_info_df[,c(3,10,11)],1,get_result)
+  Part = Partnership_info_df;
+  apply(Part[,c(3,10,11)],1,removef);
   Partnership_info_df;
 }
   get_partnership_1=function(df){
@@ -23,3 +26,21 @@ get_partnership=function(ab){
     partner$Runs.Batsman=sum(df$Runs.Batsman)
     return(partner)
   }
+
+get_result=function(r_1){
+  ret=Partnership_info_df[((r_1[1]==Partnership_info_df$Match.No)
+                           &(r_1[2]==Partnership_info_df$NonStriker)
+                           &(r_1[3]==Partnership_info_df$Batsman)),12];
+  if(length(ret)==0){
+    ret = 0;
+  }
+  return(ret);
+  
+}
+removef=function(r_1){
+  Partnership_info_df = Partnership_info_df[!((r_1[1]==Partnership_info_df$Match.No)
+                                              &(r_1[2]==Partnership_info_df$NonStriker)
+                                              &(r_1[3]==Partnership_info_df$Batsman)),];
+  
+}
+
