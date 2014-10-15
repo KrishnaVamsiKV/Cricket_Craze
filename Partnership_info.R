@@ -3,7 +3,7 @@ Cricket1$Unique=paste(Cricket1$Match.No,Cricket1$Batsman,Cricket1$NonStriker,sep
 required=split(Cricket1,paste(Cricket1$Match.No,Cricket1$Batsman,Cricket1$NonStriker,sep=" "))
 get_partnership=function(df){
   partner=data.frame(matrix(nrow=1))
-  partner$Ball.No=nrow(df$Ball.No)
+  partner$Ball.No=nrow(df)
   partner$Match.No=unique(df$Match.No)
   partner$Innings=unique(df$Innings)
   partner$Batting.Team=unique(df$Batting.Team)
