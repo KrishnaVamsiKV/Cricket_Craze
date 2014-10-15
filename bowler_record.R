@@ -14,9 +14,14 @@ bowler_record = function(bowler){
   Balls = length(Cricket$Ball.No[((Cricket$Bowler==bowler)&(Cricket$Runs.Extras.Wides==0)&(Cricket$Runs.Extras.No.Ball==0))]);
   Bowler$Overs = round(Balls/6,0);
   Bowler$Wickets = length(Cricket$Ball.No[((Cricket$Dismissed.Player!="")&(Cricket$Bowler==bowler))]);
+  if(Bowler$Runs==0){
+    Bowler$Average = 0;
+  }
+  else{
   Bowler$Average = round(Bowler$Runs/Bowler$Wickets,2);
   if(is.infinite(Bowler$Average)){
     Bowler$Average = Bowler$Runs;
+  }
   }
   Bowler$Economy = round(Bowler$Runs*6/Balls,2);
   Bowler$Strike.Rate = round(Balls/Bowler$Wickets,2);
