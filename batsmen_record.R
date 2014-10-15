@@ -8,9 +8,14 @@ batsmen_record = function(batsman){
   Batsman$Runs = sum(Cricket$Runs.Batsman[(Cricket$Batsman==batsman)]);
   Batsman$Balls = length(Cricket$Ball.No[((Cricket$Batsman==batsman)&(Cricket$Runs.Extras.Wides==0))]);
   Batsman$Outs = length(Cricket$Ball.No[(Cricket$Dismissed.Player==batsman)]);
+  if(Batsman$Runs==0){
+    Batsman$Average = 0;
+  }
+  else{
   Batsman$Average = round(Batsman$Runs/Batsman$Outs,2);
   if(is.infinite(Batsman$Average)){
     Batsman$Average = Batsman$Runs;
+  }
   }
   Batsman$Strike.Rate = round(Batsman$Runs*100/Batsman$Balls,2);
   Batsman$Fours = sum(Cricket$Runs.Batsman[(Cricket$Batsman==batsman)]==4);
