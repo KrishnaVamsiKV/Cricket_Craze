@@ -47,5 +47,6 @@ get_matches = function(Cricket){
     Match_info_df=rbind(Match_info_df,Match_info[[i]]);
   }
   Match_info_df[,1] = NULL;
+  Match_info_df$Run.Rate = Match_info_df$Total.Runs/Match_info_df$Over;
   return(Match_info_df);
 }
