@@ -29,3 +29,6 @@ Partnership_records=get_partnership(Cricket);
 
 # Generating Match Information#
 Match_records = get_matches(Cricket);
+
+# Generating Teams Performance #
+Team_records = as.data.frame(t(sapply(Teams,team_info)),row.names=FALSE);

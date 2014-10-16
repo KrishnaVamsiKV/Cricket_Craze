@@ -47,7 +47,7 @@ get_matches = function(Cricket){
     Match_info_df=rbind(Match_info_df,Match_info[[i]]);
   }
   Match_info_df[,1] = NULL;
-  Match_info_df$Run.Rate = Match_info_df$Total.Runs/Match_info_df$Over;
+  Match_info_df$Run.Rate = round(Match_info_df$Total.Runs/Match_info_df$Over,2);
   Match_info_df$Win = 1:654;
   for(i in 1:654){
     innings = Match_info_df$Innings[i];
@@ -66,8 +66,11 @@ get_matches = function(Cricket){
     if(other$Total.Runs<Match_info_df$Total.Runs[i]){
       Match_info_df$Win[i] = Match_info_df$Batting.Team[i];
     }
-    else{
+    else if(other$Total.Runs>Match_info_df$Total.Runs[i]){
       Match_info_df$Win[i] = other$Batting.Team;
+    }
+    else{
+      Match_info_df$Win[i] = "None";
     }
     }
   }
