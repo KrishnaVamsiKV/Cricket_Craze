@@ -48,5 +48,28 @@ get_matches = function(Cricket){
   }
   Match_info_df[,1] = NULL;
   Match_info_df$Run.Rate = Match_info_df$Total.Runs/Match_info_df$Over;
+  Match_info_df$Win = 1:654;
+  for(i in 1:654){
+    innings = Match_info_df$Innings[i];
+    if(innings == 1){
+      innings = 2;
+    }
+    else{
+      innings = 1;
+    }
+    other = Match_info_df[((Match_info_df$Match.No==Match_info_df$Match.No[i])
+                              &(Match_info_df$Innings == innings)),];
+    if(nrow(other)==0){
+      Match_info_df$Win[i] = "None";
+    }
+    else{
+    if(other$Total.Runs<Match_info_df$Total.Runs[i]){
+      Match_info_df$Win[i] = Match_info_df$Batting.Team[i];
+    }
+    else{
+      Match_info_df$Win[i] = other$Batting.Team;
+    }
+    }
+  }
   return(Match_info_df);
 }
