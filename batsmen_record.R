@@ -1,5 +1,23 @@
 # Function to generate a batsman record #
 batsmen_record = function(batsman){
+  get_position = function(batsman){
+    matches = unique(Cricket$Match.No[(Cricket$Batsman==batsman)]);
+    positions = c();
+    for(match in matches){
+      positions = c(positions,get_pos(match,batsman));
+    }
+    positions = as.data.frame(table(positions));
+    position = positions[order(positions$Freq,decreasing=TRUE),];
+    return(position);
+  }
+  
+  get_pos = function(match,batsman){
+    country = Cricket$Batting.Team[(Cricket$Batsman==batsman)][1];
+    batting = unique(Cricket$Batsman[((Cricket$Match.No==match)&(Cricket$Batting.Team==country))]);
+    position = which(batting == batsman);
+    return(position);
+  }
+  
   Batsman = data.frame(matrix(nrow=1,ncol=18));
   names(Batsman) = c("Batsman","Country","Matches","Runs","Average","Strike.Rate","Outs","Balls","Fours","Sixes","Position1","Freq1","Position2","Freq2","Wicket.Kind1","Wicket.Freq1","Wicket.Kind2","Wicket.Freq2");
   Batsman$Batsman = batsman;
@@ -35,23 +53,6 @@ batsmen_record = function(batsman){
   return(Batsman);
 }
 
-get_position = function(batsman){
-  matches = unique(Cricket$Match.No[(Cricket$Batsman==batsman)]);
-  positions = c();
-  for(match in matches){
-    positions = c(positions,get_pos(match,batsman));
-  }
-  positions = as.data.frame(table(positions));
-  position = positions[order(positions$Freq,decreasing=TRUE),];
-  return(position);
-}
-
-get_pos = function(match,batsman){
-  country = Cricket$Batting.Team[(Cricket$Batsman==batsman)][1];
-  batting = unique(Cricket$Batsman[((Cricket$Match.No==match)&(Cricket$Batting.Team==country))]);
-  position = which(batting == batsman);
-  return(position);
-}
 
 
 
