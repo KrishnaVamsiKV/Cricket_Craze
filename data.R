@@ -34,3 +34,11 @@ Match_records = get_matches(Cricket);
 Team_records = as.data.frame(t(sapply(Teams,team_info)),row.names=FALSE);
 Team_performance = as.data.frame(t(sapply(Teams,team_performance)),row.names=FALSE);
 
+# Generating Consistence Criteria #
+summary(as.numeric(Batsmen_records$Matches))
+nrow(Batsmen_records[(Batsmen_records$Matches>15),])
+# This number is decent enough, so lets keep it a threshold #
+Batsmen_records_req = Batsmen_records[(Batsmen_records$Matches>15),];
+summary(as.numeric(Batsmen_records_req$Matches))
+Batsmen_req = as.character(Batsmen_records_req$Batsman);
+Batsmen_Consistency = as.data.frame(t(sapply(Batsmen_req,consistency)),row.names=FALSE);
