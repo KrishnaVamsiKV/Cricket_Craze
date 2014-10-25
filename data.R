@@ -35,6 +35,7 @@ Team_records = as.data.frame(t(sapply(Teams,team_info)),row.names=FALSE);
 Team_performance = as.data.frame(t(sapply(Teams,team_performance)),row.names=FALSE);
 
 # Generating Consistence Criteria #
+# Batsmen #
 Batsmen_records_req = Batsmen_records[(Batsmen_records$Runs>600),];
 Batsmen_req = as.character(Batsmen_records_req$Batsman);
 Batsmen_Consistency = as.data.frame(t(sapply(Batsmen_req,consistency)),row.names=FALSE);
@@ -54,7 +55,7 @@ Batsmen_Consistency$Rating = round((as.numeric(Batsmen_Consistency$Average.Mean)
  
 Batsmen_Consistency = Batsmen_Consistency[order(Batsmen_Consistency$Rating,decreasing=TRUE),];
 
-
+# Bowlers #
 Bowlers_records_req = Bowlers_records[(Bowlers_records$Wickets>25),];
 Bowlers_req = as.character(Bowlers_records_req$Bowler);
 Bowlers_Consistency = as.data.frame(t(sapply(Bowlers_req,bowler_consistency)),row.names=FALSE);
@@ -76,3 +77,17 @@ Bowlers_Consistency$Rating = round(((as.numeric(Bowlers_Consistency$Dot.Percent.
 Bowlers_Consistency$WpM = round((as.numeric(Bowler_Consistency$Economy.Mean))*10/(as.numeric(Bowlers_Consistency$Average.Mean)),2);
 Bowlers_Consistency = Bowlers_Consistency[order(Bowlers_Consistency$Rating,decreasing=TRUE),];
 
+
+bind = c();
+for(i in 1:nrow(Batsmen_Consistency)){
+  bind = rbind(bind,Batsmen_records[(Batsmen_records$Batsman==as.character(Batsmen_Consistency$Batsman[i])),]);
+}
+bind2 = Batsmen_Consistency[,c(3,4,5,6,7,8)];
+TopBatsmen = cbind(bind,bind2);
+
+bind = c();
+for(i in 1:nrow(Bowlers_Consistency)){
+  bind = rbind(bind,Bowlers_records[(Bowlers_records$Bowler==as.character(Bowlers_Consistency$Bowler[i])),]);
+}
+bind2 = Bowlers_Consistency[,c(3,4,5,6,7,8,9,10,11)];
+TopBowlers = cbind(bind,bind2);
