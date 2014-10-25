@@ -17,6 +17,8 @@ Fielders = unique(Cricket$Wicket.Fielder)
 Players = c(Batsmen,Bowlers,Fielders);
 Players = unique(Players);
 Wicket.Kinds = unique(Cricket$Wicket.Kind);
+Cricket$Date.No = difftime(strptime(Cricket$Date,format = "%d-%m-%Y"),strptime("01-01-2011","%d-%m-%Y"),units="days");
+Cricket = Cricket[order(Cricket$Date.No),];
 
 # Generating batsmen records #
 Batsmen_records =  as.data.frame(t(sapply(Batsmen,batsmen_record)),row.names=FALSE);
@@ -46,11 +48,11 @@ matches[i] = Batsmen_records$Matches[(Batsmen_records$Batsman==Batsmen_req[i])];
 }
 streaks = as.numeric(matches) - 10;
 Batsmen_Consistency$Streaks = streaks;
-rating = (0.6+0.4*(as.numeric(Batsmen_Consistency$Average.Mean)>=42.41)
-          +0.3*((as.numeric(Batsmen_Consistency$Average.Mean)<42.41)&(as.numeric(Batsmen_Consistency$Average.Mean)>=37.15))
-          +0.2*((as.numeric(Batsmen_Consistency$Average.Mean)<37.15)&(as.numeric(Batsmen_Consistency$Average.Mean)>=35.67))
-          +0.1*((as.numeric(Batsmen_Consistency$Average.Mean)<35.67)&(as.numeric(Batsmen_Consistency$Average.Mean)>=30.80)))
-Batsmen_Consistency$Rating = round((as.numeric(Batsmen_Consistency$Average.Mean)^2*(rating*as.numeric(Batsmen_Consistency$Strike.Rate.Mean))*as.numeric(Batsmen_Consistency$Streaks))
+rating = (1+7*(as.numeric(Batsmen_Consistency$Average.Mean)>=42.44)
+          +3*((as.numeric(Batsmen_Consistency$Average.Mean)<42.44)&(as.numeric(Batsmen_Consistency$Average.Mean)>=35.25))
+          +1*((as.numeric(Batsmen_Consistency$Average.Mean)<35.25)&(as.numeric(Batsmen_Consistency$Average.Mean)>=31.28))
+          )
+Batsmen_Consistency$Rating = round((as.numeric(Batsmen_Consistency$Average.Mean)*(rating*as.numeric(Batsmen_Consistency$Strike.Rate.Mean))*as.numeric(Batsmen_Consistency$Streaks))
                                      /(as.numeric(Batsmen_Consistency$Average.Sd)),2);
  
 Batsmen_Consistency = Batsmen_Consistency[order(Batsmen_Consistency$Rating,decreasing=TRUE),];
@@ -67,14 +69,14 @@ for(i in 1:59){
 streaks = as.numeric(matches) - 10;
 Bowlers_Consistency$Streaks = streaks;
 Bowlers_Consistency$WpM = round((as.numeric(Bowlers_Consistency$Economy.Mean))*10/(as.numeric(Bowlers_Consistency$Average.Mean)),2);
-rating = (1+4*(as.numeric(Bowlers_Consistency$Average.Mean)<=24.87)
-          +3*((as.numeric(Bowlers_Consistency$Average.Mean)<28.40)&(as.numeric(Bowlers_Consistency$Average.Mean)>=24.87))
-          +2*((as.numeric(Bowlers_Consistency$Average.Mean)<29.36)&(as.numeric(Bowlers_Consistency$Average.Mean)>=28.40))
-          +1*((as.numeric(Bowlers_Consistency$Average.Mean)<33.93)&(as.numeric(Bowlers_Consistency$Average.Mean)>=29.36)))
+rating = (1+3*(as.numeric(Bowlers_Consistency$Average.Mean)<=24.87)
+          +2*((as.numeric(Bowlers_Consistency$Average.Mean)<28.40)&(as.numeric(Bowlers_Consistency$Average.Mean)>=24.87))
+          +1*((as.numeric(Bowlers_Consistency$Average.Mean)<33.93)&(as.numeric(Bowlers_Consistency$Average.Mean)>=28.40))
+          )
 
 Bowlers_Consistency$Rating = round(((as.numeric(Bowlers_Consistency$Dot.Percent.Mean))*(rating)*(as.numeric(Bowlers_Consistency$Streaks)))/
                                      ((as.numeric(Bowlers_Consistency$Average.Mean))*(as.numeric(Bowlers_Consistency$Economy.Mean))*(as.numeric(Bowlers_Consistency$Average.Sd))),2);
-Bowlers_Consistency$WpM = round((as.numeric(Bowler_Consistency$Economy.Mean))*10/(as.numeric(Bowlers_Consistency$Average.Mean)),2);
+Bowlers_Consistency$WpM = round((as.numeric(Bowlers_Consistency$Economy.Mean))*10/(as.numeric(Bowlers_Consistency$Average.Mean)),2);
 Bowlers_Consistency = Bowlers_Consistency[order(Bowlers_Consistency$Rating,decreasing=TRUE),];
 
 
@@ -99,3 +101,9 @@ TopBatsmen$Partnerships = sapply(as.vector(TopBatsmen$Batsman),partnerships);
 # Number of Man of the Matches #
 TopBatsmen$Mom = sapply(as.vector(TopBatsmen$Batsman),get_mom);
 TopBowlers$Mom = sapply(as.vector(TopBowlers$Bowler),get_mom);
+
+# Generating Recent Performances #
+bind_bat = as.data.frame(t(sapply(as.character(TopBatsmen$Batsman),recent_batsman)),row.names=FALSE);
+bind_bowl = as.data.frame(t(sapply(as.character(TopBowlers$Bowler),recent_bowler)),row.names=FALSE);
+TopBatsmen = cbind(TopBatsmen,bind_bat[,c(3,4)]);
+TopBowlers = cbind(TopBowlers,bind_bowl[,c(3,4,5)]);
