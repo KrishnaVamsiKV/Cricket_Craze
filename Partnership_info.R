@@ -12,6 +12,7 @@ get_partnership=function(ab){
     partner$Batsman=unique(df$Batsman)
     partner$NonStriker=unique(df$NonStriker)
     partner$Runs.Batsman=sum(df$Runs.Batsman)
+    partner$Total.Runs = sum(df$Total.Runs);
     return(partner)
   }
   
@@ -32,7 +33,18 @@ get_partnership=function(ab){
     return(ret);
     
   }
-  Partnership_info_df$player2_score=apply(Partnership_info_df[,c(3,10,11)],1,get_result);
+  get_runs=function(r_1){
+    ret=Partnership_info_df[((r_1[1]==Partnership_info_df$Match.No)
+                             &(r_1[2]==Partnership_info_df$NonStriker)
+                             &(r_1[3]==Partnership_info_df$Batsman)),13];
+    if(length(ret)==0){
+      ret = 0;
+    }
+    return(ret);
+    
+  }
+  Partnership_info_df$Player2.Score=apply(Partnership_info_df[,c(3,10,11)],1,get_result);
+  Partnership_info_df$Total.Runs = Partnership_info_df$Total.Runs + apply(Partnership_info_df[,c(3,10,11)],1,get_runs);
   Part = Partnership_info_df;
   Partnership_info_df = c();
   for(i in 1:nrow(Part) ){
@@ -45,7 +57,7 @@ get_partnership=function(ab){
       Partnership_info_df = rbind(Partnership_info_df,Part[i,]);
     }
   }
-  names(Partnership_info_df)[10:13] = c("Batsman1","Batsman2","Player1.Score","Player2.Score")
+  names(Partnership_info_df)[10:12] = c("Batsman1","Batsman2","Player1.Score");
   row.names(Partnership_info_df) = NULL;
   Partnership_info_df[,1] = NULL;
   return(Partnership_info_df);

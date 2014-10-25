@@ -46,11 +46,11 @@ matches[i] = Batsmen_records$Matches[(Batsmen_records$Batsman==Batsmen_req[i])];
 }
 streaks = as.numeric(matches) - 10;
 Batsmen_Consistency$Streaks = streaks;
-rating = (1+4*(as.numeric(Batsmen_Consistency$Average.Mean)>=42.41)
-          +3*((as.numeric(Batsmen_Consistency$Average.Mean)<42.41)&(as.numeric(Batsmen_Consistency$Average.Mean)>=37.15))
-          +2*((as.numeric(Batsmen_Consistency$Average.Mean)<37.15)&(as.numeric(Batsmen_Consistency$Average.Mean)>=35.67))
-          +1*((as.numeric(Batsmen_Consistency$Average.Mean)<35.67)&(as.numeric(Batsmen_Consistency$Average.Mean)>=30.80)))
-Batsmen_Consistency$Rating = round((as.numeric(Batsmen_Consistency$Average.Mean)^2*(rating*as.numeric(Batsmen_Consistency$Strike.Rate.Mean))*as.numeric(Batsmen_Consistency$streaks))
+rating = (0.6+0.4*(as.numeric(Batsmen_Consistency$Average.Mean)>=42.41)
+          +0.3*((as.numeric(Batsmen_Consistency$Average.Mean)<42.41)&(as.numeric(Batsmen_Consistency$Average.Mean)>=37.15))
+          +0.2*((as.numeric(Batsmen_Consistency$Average.Mean)<37.15)&(as.numeric(Batsmen_Consistency$Average.Mean)>=35.67))
+          +0.1*((as.numeric(Batsmen_Consistency$Average.Mean)<35.67)&(as.numeric(Batsmen_Consistency$Average.Mean)>=30.80)))
+Batsmen_Consistency$Rating = round((as.numeric(Batsmen_Consistency$Average.Mean)^2*(rating*as.numeric(Batsmen_Consistency$Strike.Rate.Mean))*as.numeric(Batsmen_Consistency$Streaks))
                                      /(as.numeric(Batsmen_Consistency$Average.Sd)),2);
  
 Batsmen_Consistency = Batsmen_Consistency[order(Batsmen_Consistency$Rating,decreasing=TRUE),];
@@ -91,3 +91,11 @@ for(i in 1:nrow(Bowlers_Consistency)){
 }
 bind2 = Bowlers_Consistency[,c(3,4,5,6,7,8,9,10,11)];
 TopBowlers = cbind(bind,bind2);
+
+
+# Number of 100+ Partnerships #
+TopBatsmen$Partnerships = sapply(as.vector(TopBatsmen$Batsman),partnerships);
+
+# Number of Man of the Matches #
+TopBatsmen$Mom = sapply(as.vector(TopBatsmen$Batsman),get_mom);
+TopBowlers$Mom = sapply(as.vector(TopBowlers$Bowler),get_mom);
