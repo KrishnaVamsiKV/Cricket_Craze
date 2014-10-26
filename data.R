@@ -35,6 +35,15 @@ Match_records = get_matches(Cricket);
 # Generating Teams Performance #
 Team_records = as.data.frame(t(sapply(Teams,team_info)),row.names=FALSE);
 Team_performance = as.data.frame(t(sapply(Teams,team_performance)),row.names=FALSE);
+Team_performance$Win.Percent = round(as.numeric(Team_performance$Won)*100/as.numeric(Team_performance$Matches),2); 
+TopTeams = Team_performance[(Team_performance$Matches>15),];
+TopTeams = TopTeams[order(TopTeams$Win.Percent,decreasing=TRUE),];
+bind = c();
+for(i in 1:nrow(TopTeams)){
+  bind = rbind(bind,Team_records[(Team_records$Country==as.character(TopTeams$Country[i])),]);
+}
+TopTeams = cbind(TopTeams,bind[,c(4:20)]);
+
 
 # Generating Consistence Criteria #
 # Batsmen #
@@ -112,3 +121,15 @@ TopBowlers = cbind(TopBowlers,bind_bowl[,c(3,4,5)]);
 TopBatsmen$Fitness = sapply(as.vector(TopBatsmen$Batsman),fitness_bat);
 TopBowlers$Fitness = sapply(as.vector(TopBowlers$Bowler),fitness_bowl);
 TopBowlers$OpM = round(as.numeric(TopBowlers$Overs)/as.numeric(TopBowlers$Matches),2);
+
+# Generating All Rounders #
+AllRounders = as.character(intersect(TopBatsmen$Batsman,TopBowlers$Bowler));
+bat_bind = c();
+bowl_bind = c();
+for(i in 1:length(AllRounders)){
+  bat_bind = rbind(bat_bind,TopBatsmen[(TopBatsmen$Batsman==AllRounders[i]),]);
+  bowl_bind = rbind(bowl_bind,TopBowlers[(TopBowlers$Bowler==AllRounders[i]),]);
+}
+TopAllRounders = cbind(bat_bind,bowl_bind[,c(4:33)]);
+TopAllRounders$Rating = as.numeric(TopAllRounders$Rating)*as.numeric(TopAllRounders[,52]);
+TopAllRounders = TopAllRounders[order(TopAllRounders$Rating,decreasing=TRUE),];
