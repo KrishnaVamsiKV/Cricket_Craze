@@ -107,3 +107,8 @@ bind_bat = as.data.frame(t(sapply(as.character(TopBatsmen$Batsman),recent_batsma
 bind_bowl = as.data.frame(t(sapply(as.character(TopBowlers$Bowler),recent_bowler)),row.names=FALSE);
 TopBatsmen = cbind(TopBatsmen,bind_bat[,c(3,4)]);
 TopBowlers = cbind(TopBowlers,bind_bowl[,c(3,4,5)]);
+
+# Generating Fitness #
+TopBatsmen$Fitness = sapply(as.vector(TopBatsmen$Batsman),fitness_bat);
+TopBowlers$Fitness = sapply(as.vector(TopBowlers$Bowler),fitness_bowl);
+TopBowlers$OpM = round(as.numeric(TopBowlers$Overs)/as.numeric(TopBowlers$Matches),2);
