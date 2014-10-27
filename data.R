@@ -57,11 +57,11 @@ matches[i] = Batsmen_records$Matches[(Batsmen_records$Batsman==Batsmen_req[i])];
 }
 streaks = as.numeric(matches) - 10;
 Batsmen_Consistency$Streaks = streaks;
-rating = (1+7*(as.numeric(Batsmen_Consistency$Average.Mean)>=42.44)
-          +3*((as.numeric(Batsmen_Consistency$Average.Mean)<42.44)&(as.numeric(Batsmen_Consistency$Average.Mean)>=35.25))
-          +1*((as.numeric(Batsmen_Consistency$Average.Mean)<35.25)&(as.numeric(Batsmen_Consistency$Average.Mean)>=31.28))
-          )
-Batsmen_Consistency$Rating = round((as.numeric(Batsmen_Consistency$Average.Mean)*(rating*as.numeric(Batsmen_Consistency$Strike.Rate.Mean))*as.numeric(Batsmen_Consistency$Streaks))
+##rating = (1+7*(as.numeric(Batsmen_Consistency$Average.Mean)>=42.44)
+ #         +3*((as.numeric(Batsmen_Consistency$Average.Mean)<42.44)&(as.numeric(Batsmen_Consistency$Average.Mean)>=35.25))
+ #         +1*((as.numeric(Batsmen_Consistency$Average.Mean)<35.25)&(as.numeric(Batsmen_Consistency$Average.Mean)>=31.28))
+  #        )
+Batsmen_Consistency$Rating = round((as.numeric(Batsmen_Consistency$Average.Mean)*(log((as.numeric(Batsmen_Consistency$Average.Mean)-19)/12)*as.numeric(Batsmen_Consistency$Strike.Rate.Mean))*as.numeric(Batsmen_Consistency$Streaks))
                                      /(as.numeric(Batsmen_Consistency$Average.Sd)),2);
  
 Batsmen_Consistency = Batsmen_Consistency[order(Batsmen_Consistency$Rating,decreasing=TRUE),];
@@ -78,13 +78,13 @@ for(i in 1:59){
 streaks = as.numeric(matches) - 10;
 Bowlers_Consistency$Streaks = streaks;
 Bowlers_Consistency$WpM = round((as.numeric(Bowlers_Consistency$Economy.Mean))*10/(as.numeric(Bowlers_Consistency$Average.Mean)),2);
-rating = (1+3*(as.numeric(Bowlers_Consistency$Average.Mean)<=24.87)
-          +2*((as.numeric(Bowlers_Consistency$Average.Mean)<28.40)&(as.numeric(Bowlers_Consistency$Average.Mean)>=24.87))
-          +1*((as.numeric(Bowlers_Consistency$Average.Mean)<33.93)&(as.numeric(Bowlers_Consistency$Average.Mean)>=28.40))
-          )
+#rating = (1+3*(as.numeric(Bowlers_Consistency$Average.Mean)<=24.87)
+#          +2*((as.numeric(Bowlers_Consistency$Average.Mean)<28.40)&(as.numeric(Bowlers_Consistency$Average.Mean)>=24.87))
+  #        +1*((as.numeric(Bowlers_Consistency$Average.Mean)<33.93)&(as.numeric(Bowlers_Consistency$Average.Mean)>=28.40))
+ #         )
 
-Bowlers_Consistency$Rating = round(((as.numeric(Bowlers_Consistency$Dot.Percent.Mean))*(rating)*(as.numeric(Bowlers_Consistency$Streaks)))/
-                                     ((as.numeric(Bowlers_Consistency$Average.Mean))*(as.numeric(Bowlers_Consistency$Economy.Mean))*(as.numeric(Bowlers_Consistency$Average.Sd))),2);
+Bowlers_Consistency$Rating = round(((as.numeric(Bowlers_Consistency$Dot.Percent.Mean))*(as.numeric(Bowlers_Consistency$Streaks)))/
+                                     ((as.numeric(Bowlers_Consistency$Average.Mean))*(as.numeric(Bowlers_Consistency$Economy.Mean))*(as.numeric(Bowlers_Consistency$Average.Sd))*(log(as.numeric(Bowlers_Consistency$Average.Mean)/6))),2);
 Bowlers_Consistency$WpM = round((as.numeric(Bowlers_Consistency$Economy.Mean))*10/(as.numeric(Bowlers_Consistency$Average.Mean)),2);
 Bowlers_Consistency = Bowlers_Consistency[order(Bowlers_Consistency$Rating,decreasing=TRUE),];
 
@@ -155,6 +155,6 @@ for(j in c(4,7,8,9,10,22,23,24,26,27,28,29,30,31,32,33)){
     x[i] = nrow(bowlers[(bowlers$Country==country[i]),]);
   }
   TopTeams = cbind(TopTeams,x);
-  names(TopTeams)[k] = names(TopBowlers)[j];
+  names(TopTeams)[k] = paste("B" ,names(TopBowlers)[j]);
   k = k + 1;
 }
