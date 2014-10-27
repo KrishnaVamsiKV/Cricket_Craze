@@ -16,9 +16,8 @@ Match_records[(Match_records$Batting.Team==Match_records$Win)&(     Match_record
                                                                       Match_records$loss==("Sri Lanka")|
                                                                       Match_records$loss==("England")|
                                                                       Match_records$loss==("New Zealand")|
-                                                                      Match_records$loss==("West Indies")|
-                                                                      Match_records$loss==("Bangladesh")|
-                                                                      Match_records$loss==("Zimbabwe")      ),28]=2;
+                                                                      Match_records$loss==("West Indies")
+                                                                          ),28]=2;
 
 
 

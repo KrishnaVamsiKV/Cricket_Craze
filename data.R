@@ -158,3 +158,10 @@ for(j in c(4,7,8,9,10,22,23,24,26,27,28,29,30,31,32,33)){
   names(TopTeams)[k] = paste("B" ,names(TopBowlers)[j]);
   k = k + 1;
 }
+
+TopTeams$Points = 0;
+countries = as.character(TopTeams$Country);
+for(i in 1:10){
+  TopTeams$Points[i] = sum(Match_records$points[(Match_records$Win==countries[i])])/(as.numeric(TopTeams$Matches[i]));
+}
+TopTeams = TopTeams[order(TopTeams$Points,decreasing=TRUE),];
