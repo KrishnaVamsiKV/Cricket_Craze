@@ -133,3 +133,28 @@ for(i in 1:length(AllRounders)){
 TopAllRounders = cbind(bat_bind,bowl_bind[,c(4:33)]);
 TopAllRounders$Rating = as.numeric(TopAllRounders$Rating)*as.numeric(TopAllRounders[,52]);
 TopAllRounders = TopAllRounders[order(TopAllRounders$Rating,decreasing=TRUE),];
+
+k = 26;
+for(j in c(4,5,6,21,22,24,25,26,27,28,29)){
+batsmen = TopBatsmen[order(as.numeric(TopBatsmen[,j]),decreasing=TRUE),][1:30,];
+country = as.character(TopTeams$Country);
+x = c(1:10);
+for(i in 1:10){
+  x[i] = nrow(batsmen[(batsmen$Country==country[i]),]);
+}
+TopTeams = cbind(TopTeams,x);
+names(TopTeams)[k] = names(TopBatsmen)[j];
+k = k + 1;
+}
+
+for(j in c(4,7,8,9,10,22,23,24,26,27,28,29,30,31,32,33)){
+  bowlers = TopBowlers[order(as.numeric(TopBowlers[,j]),decreasing=TRUE),][1:25,];
+  country = as.character(TopTeams$Country);
+  x = c(1:10);
+  for(i in 1:10){
+    x[i] = nrow(bowlers[(bowlers$Country==country[i]),]);
+  }
+  TopTeams = cbind(TopTeams,x);
+  names(TopTeams)[k] = names(TopBowlers)[j];
+  k = k + 1;
+}
