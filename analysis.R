@@ -1,10 +1,12 @@
 analysis = function(){
   # Generating number of good players in a team for each factor #
+  x = 1:10;
+  TopTeams = TopTeams[,c(1:23)];
   k = 24;
   for(j in c(4,5,6,24,25,26,27,28,29)){
     batsmen = TopBatsmen[order(as.numeric(TopBatsmen[,j]),decreasing=TRUE),][1:25,];
     country = as.character(TopTeams$Country);
-    x = c(1:10);
+    
     for(i in 1:10){
       x[i] = nrow(batsmen[(batsmen$Country==country[i]),]);
     }
@@ -57,7 +59,8 @@ analysis = function(){
   TopTeams = TopTeams[order(TopTeams$Points,decreasing=TRUE),];
   
   # Seeing MI for different factors #
-  x = 1:10;
+  x = round(100*as.numeric(TopTeams$Points));
+  y=x;
   info = 24:50;
   for(i in 1:27){
     info[i] = mutinformation(x,as.numeric(TopTeams[,(i+23)]));
@@ -86,7 +89,7 @@ analysis = function(){
     }
     
     
-    x = 1:10;
+    x =y;
     info_bat = 24:30;
     for(i in 1:7){
       info_bat[i] = mutinformation(x,as.numeric(TopTeams[,(i+23)]));
@@ -131,7 +134,7 @@ analysis = function(){
       k = k + 1;
     }
     
-    x = 1:10;
+    x = y;
     info_bowl = 24:35;
     for(i in 1:12){
       info_bowl[i] = mutinformation(x,as.numeric(TopTeams[,(i+23)]));
